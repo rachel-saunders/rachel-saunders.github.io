@@ -37,16 +37,9 @@ map.on('load', function(){
 	//add earthquake points to map
 	//thanks to https://www.mapbox.com/mapbox-gl-js/example/popup-on-click/ & https://mseto-uw.github.io/mapbox_example.html
 	map.addLayer({
-		"id": "supply",
+		"id": "manu",
 		"type": "circle",
-		"source": "manu_site",
-		"paint": {
-			//make circles larger as the user zooms from z12 to z22
-			'circle-radius': {
-				'base': 10,
-				'stops': [[12, 2], [22, 180]]
-			}
-			}
+		"source": "supply",
 		});
 	});
 </script>
