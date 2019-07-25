@@ -42,14 +42,14 @@
 		});
 
 
-$.getJSON("supplychain.geojson", function(data){
+$.getJSON("supplychain.js", function(data){
 	var bcircle= L.icon({
 		iconUrl: "MyImages/blackcircle.png", //<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 		iconSize: [16, 16]
 	});
 	L.geoJson(data, {
 		pointToLayer: function(feature,LatLng){
-			var marker = L.marker(latlng, {icon:bcircle});
+			var marker = L.marker(latlng, {icon: bcircle});
 			marker.bindPopup("<p>manu_site: "+feature.properties.manu_site+"</p>");
 			return marker;
 		}
