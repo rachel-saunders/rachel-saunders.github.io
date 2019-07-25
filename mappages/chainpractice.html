@@ -48,8 +48,8 @@ $.getJSON("supplychain.geojson", function(data){
 		iconSize: [16, 16]
 	});
 	L.geoJson(data, {
-		pointToLayer: function(feature,LngLat){
-			var marker = L.marker(lnglat, {icon:bcircle});
+		pointToLayer: function(feature,LatLng){
+			var marker = L.marker(latlng, {icon:bcircle});
 			marker.bindPopup("<p>manu_site: "+feature.properties.manu_site+"</p>");
 			return marker;
 		}
