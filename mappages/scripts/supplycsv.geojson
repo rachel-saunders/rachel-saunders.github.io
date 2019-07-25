@@ -1,0 +1,395 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.726069,45.816077 ]
+    },
+    "properties": {
+    "OBJECTID":"SF",
+    "SITE_NAME":"SUNPOWER FRANCE",
+    "ADDRESS":"FRANCE",
+    "TYPE_DESC":"MANU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.066273,14.27618 ]
+    },
+    "properties": {
+    "OBJECTID":"SFA",
+    "SITE_NAME":"SUNPOWER FAB 4",
+    "ADDRESS":"PHILIPINES",
+    "TYPE_DESC":"MANU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.125141,14.137501 ]
+    },
+    "properties": {
+    "OBJECTID":"SFB",
+    "SITE_NAME":"SUNPOWER FAB 2",
+    "ADDRESS":"PHILIPINES",
+    "TYPE_DESC":"MANU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.999517,-37.905482 ]
+    },
+    "properties": {
+    "OBJECTID":"SB",
+    "SITE_NAME":"SUNPOWER BRIGHTON",
+    "ADDRESS":"AUSTRALIA",
+    "TYPE_DESC":"MANU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.358354,37.910501 ]
+    },
+    "properties": {
+    "OBJECTID":"SR",
+    "SITE_NAME":"SUNPOWER RICHMOND",
+    "ADDRESS":"USA, CALIFORNIA",
+    "TYPE_DESC":"MANU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -121.946716,37.404787 ]
+    },
+    "properties": {
+    "OBJECTID":"SSJ",
+    "SITE_NAME":"SUNPOWER SAN JOSE",
+    "ADDRESS":"USA, CALIFORNIA",
+    "TYPE_DESC":"MANU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 18.576651,-33.968283 ]
+    },
+    "properties": {
+    "OBJECTID":"SCT",
+    "SITE_NAME":"SUNPOWER CAPE TOWN",
+    "ADDRESS":"SOUTH AFRICA, CAPE TOWN",
+    "TYPE_DESC":"MANU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -6.846631,33.998192 ]
+    },
+    "properties": {
+    "OBJECTID":"ST",
+    "SITE_NAME":"SUNPOWER TEMASOL",
+    "ADDRESS":" ",
+    "TYPE_DESC":"MANU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.065836,14.27815 ]
+    },
+    "properties": {
+    "OBJECTID":"SM",
+    "SITE_NAME":"SUNPOWER MODCO",
+    "ADDRESS":" ",
+    "TYPE_DESC":"MANU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -115.532608,32.622782 ]
+    },
+    "properties": {
+    "OBJECTID":"SME",
+    "SITE_NAME":"SUNPOWER MEXICALI",
+    "ADDRESS":"MEXICO",
+    "TYPE_DESC":"MANU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 102.21123,2.34049 ]
+    },
+    "properties": {
+    "OBJECTID":"SMA",
+    "SITE_NAME":"SUNPOWER MALAYSIA",
+    "ADDRESS":"MALAYSIA",
+    "TYPE_DESC":"MANU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.706991,61.236838 ]
+    },
+    "properties": {
+    "OBJECTID":"NA",
+    "SITE_NAME":"NORSUN AS",
+    "ADDRESS":"NORWAY",
+    "TYPE_DESC":"PROD"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.39515,51.298002 ]
+    },
+    "properties": {
+    "OBJECTID":"WCN",
+    "SITE_NAME":"WACKER CHEMIE AG, NUNCHRITZ",
+    "ADDRESS":"GERMANY",
+    "TYPE_DESC":"PROD"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.160654,43.436264 ]
+    },
+    "properties": {
+    "OBJECTID":"HC",
+    "SITE_NAME":"HEMLOCK CORP",
+    "ADDRESS":" ",
+    "TYPE_DESC":"PROD"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.796076,35.283907 ]
+    },
+    "properties": {
+    "OBJECTID":"WP",
+    "SITE_NAME":"WACKER POLYSILICON",
+    "ADDRESS":" ",
+    "TYPE_DESC":"PROD"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.631623,59.90261 ]
+    },
+    "properties": {
+    "OBJECTID":"RSA",
+    "SITE_NAME":"REC SILICON ASA",
+    "ADDRESS":" ",
+    "TYPE_DESC":"PROD"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -119.198713,47.134918 ]
+    },
+    "properties": {
+    "OBJECTID":"RSW",
+    "SITE_NAME":"REC SILICON ASA",
+    "ADDRESS":" ",
+    "TYPE_DESC":"PROD"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -112.688913,45.970868 ]
+    },
+    "properties": {
+    "OBJECTID":"RSM",
+    "SITE_NAME":"REC SILICON ASA",
+    "ADDRESS":" ",
+    "TYPE_DESC":"PROD"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 126.662835,35.979712 ]
+    },
+    "properties": {
+    "OBJECTID":"OP",
+    "SITE_NAME":"OCI PLANT",
+    "ADDRESS":" ",
+    "TYPE_DESC":"PROD"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 113.305171,3.544446 ]
+    },
+    "properties": {
+    "OBJECTID":"OM",
+    "SITE_NAME":"OCI MALAYSIA",
+    "ADDRESS":" ",
+    "TYPE_DESC":"PROD"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53,-11 ]
+    },
+    "properties": {
+    "OBJECTID":"MB",
+    "SITE_NAME":"QUARTZ BRAZIL",
+    "ADDRESS":"BRAZIL",
+    "TYPE_DESC":"MINE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 77,21 ]
+    },
+    "properties": {
+    "OBJECTID":"MI",
+    "SITE_NAME":"QUARTZ INDIA",
+    "ADDRESS":"INDIA",
+    "TYPE_DESC":"MINE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103,35 ]
+    },
+    "properties": {
+    "OBJECTID":"MC",
+    "SITE_NAME":"QUARTZ CHINA",
+    "ADDRESS":"CHINA",
+    "TYPE_DESC":"MINE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 118,-2 ]
+    },
+    "properties": {
+    "OBJECTID":"MIN",
+    "SITE_NAME":"COPPER ORE INDONESIA",
+    "ADDRESS":"INDONESIA",
+    "TYPE_DESC":"MINE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 135,-25 ]
+    },
+    "properties": {
+    "OBJECTID":"MA",
+    "SITE_NAME":"COPPER ORE AUSTRALIA",
+    "ADDRESS":"AUSTRALIA",
+    "TYPE_DESC":"MINE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -109,56 ]
+    },
+    "properties": {
+    "OBJECTID":"MCA",
+    "SITE_NAME":"COPPER ORE CANADA",
+    "ADDRESS":"CANADA",
+    "TYPE_DESC":"MINE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 36,39 ]
+    },
+    "properties": {
+    "OBJECTID":"MT",
+    "SITE_NAME":"QUARTZ TURKEY",
+    "ADDRESS":"TURKEY",
+    "TYPE_DESC":"MINE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71,-31 ]
+    },
+    "properties": {
+    "OBJECTID":"MCI",
+    "SITE_NAME":"COPPER ORE CHILE",
+    "ADDRESS":"CHILE",
+    "TYPE_DESC":"MINE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78,-8 ]
+    },
+    "properties": {
+    "OBJECTID":"CP",
+    "SITE_NAME":"COPPER ORE PERU",
+    "ADDRESS":"PERU",
+    "TYPE_DESC":"MINE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3,40 ]
+    },
+    "properties": {
+    "OBJECTID":"MS",
+    "SITE_NAME":"QUARTZ SPAIN",
+    "ADDRESS":"SPAIN",
+    "TYPE_DESC":"MINE"
+    }
+  }
+]
+}
