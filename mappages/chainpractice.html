@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>SupplyChain</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.mapbox.com/mapbox.js/v3.2.0/mapbox.js'></script>
+	<link href='https://api.mapbox.com/mapbox.js/v3.2.0/mapbox.css' rel='stylesheet' />
+	<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-draw/v0.4.10/leaflet.draw.css' rel='stylesheet' />
+	<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-draw/v0.4.10/leaflet.draw.js'></script>
+
+<!-- the leaflet CSS and JS library -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="">
+	<!-- Make sure you put this AFTER leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
+	<!-- Add JQuery to get local GeoJson file -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <style>
+
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+	
+
+
+<div id='map'></div>
+<script>
+
+//Basemap from http://leaflet-extras.github.io/leaflet-providers/preview/
+			var OpenStreetMap_BlackAndWhite = L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
+		maxZoom: 18,
+		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			});
+		//make the map
+		var map = new L.Map("map", {
+			center: new L.LatLng(11.97, 38.66),
+			zoom: 2
+		});
+
+
+$.getJSON("supplychain.geojson", function(data){
+	var bcircle= L.icon({
+		iconUrl: "MyImages/blackcircle.png", //<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+		iconSize: [16, 16]
+	});
+	L.geoJson(data, {
+		pointToLayer: function(feature,LngLat){
+			var marker = L.marker(lnglat, {icon:bcircle});
+			marker.bindPopup("<p>manu_site: "+feature.properties.manu_site+"</p>");
+			return marker;
+		}
+	}).addTo(map);
+});
+
+</script>
+
+<!--
+//add zoom and rotation controls to map
+	map.scrollZoom.disable();
+	map.addControl(new mapboxgl.NavigationControl());
+//on map load, display data
+map.on('load', function(){
+	//adding source layer for earthquakes
+	map.addSource('supply', {
+		"type": "geojson",
+		"data": "supplychain.geojson"
+	});
+	//add earthquake points to map
+	//thanks to https://www.mapbox.com/mapbox-gl-js/example/popup-on-click/ & https://mseto-uw.github.io/mapbox_example.html
+	map.addLayer({
+		"id": "manu",
+		"type": "circle",
+		"source": "supply",
+		});
+	});
+</script>
+
+-->
+</body>
+</html>
