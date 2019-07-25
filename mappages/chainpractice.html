@@ -49,7 +49,7 @@ $.getJSON("scripts/supplycsv.geojson", function(data){
 		iconSize: [16, 16]
 	});
 	L.geoJson(data, {
-		pointToLayer: function(feature,LatLng){
+		pointToLayer: function(feature,latlng){
 			var marker = L.marker(latlng, {icon: bcircle});
 			marker.bindPopup("<p>TYPE_DESC: "+feature.properties.TYPE_DESCe+"</p>");
 			return marker;
