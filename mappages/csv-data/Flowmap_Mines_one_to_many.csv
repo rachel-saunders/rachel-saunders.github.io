@@ -1,0 +1,91 @@
+s_city_id,s_start,s_lat,s_lon,s_country,s_Volume,e_city_id,e_end,e_lat,e_lon,e_country,e_vol
+238,Brazil,-11,-53,Brazil,291099,1,NorSun AS,61.236838,7.706991,Norway,1
+238,Brazil,-11,-53,Brazil,291099,2,Wacker Chemier,51.298992,13.39515,Germany,1
+238,Brazil,-11,-53,Brazil,291099,3,Hemlock,43.436264,-84.160654,United States of America,1
+238,Brazil,-11,-53,Brazil,291099,4,Wacker Polysilicon,35.283907,-84.796076,United States of America,1
+238,Brazil,-11,-53,Brazil,291099,5,REC Silicon ASA,59.90261,10.631623,Norway,1
+238,Brazil,-11,-53,Brazil,291099,6,REC Silicon,47.134918,-119.198713,United States of America,1
+238,Brazil,-11,-53,Brazil,291099,7,REC Silicon,45.970868,-112.688913,United States of America,1
+238,Brazil,-11,-53,Brazil,291099,8,OCI Plant,35.979712,126.662835,South Korea,1
+238,Brazil,-11,-53,Brazil,291099,9,OCI Malaysia,3.544446,113.305171,Malaysia,1
+623,India,21,77,India,302064,10,NorSun AS,61.236838,7.706991,Norway,1
+623,India,21,77,India,302064,11,Wacker Chemier,51.298992,13.39515,Germany,1
+623,India,21,77,India,302064,12,Hemlock,43.436264,-84.160654,United States of America,1
+623,India,21,77,India,302064,13,Wacker Polysilicon,35.283907,-84.796076,United States of America,1
+623,India,21,77,India,302064,14,REC Silicon ASA,59.90261,10.631623,Norway,1
+623,India,21,77,India,302064,15,REC Silicon,47.134918,-119.198713,United States of America,1
+623,India,21,77,India,302064,16,REC Silicon,45.970868,-112.688913,United States of America,1
+222,India,21,77,India,400017,17,OCI Plant,35.979712,126.662835,South Korea,1
+222,India,21,77,India,400017,18,OCI Malaysia,3.544446,113.305171,Malaysia,1
+222,China,35,103,China,400017,19,NorSun AS,61.236838,7.706991,Norway,1
+222,China,35,103,China,400017,20,Wacker Chemier,51.298992,13.39515,Germany,1
+222,China,35,103,China,400017,21,Hemlock,43.436264,-84.160654,United States of America,1
+222,China,35,103,China,400017,22,Wacker Polysilicon,35.283907,-84.796076,United States of America,1
+657,China,35,103,China,645321,23,REC Silicon ASA,59.90261,10.631623,Norway,1
+657,China,35,103,China,645321,24,REC Silicon,47.134918,-119.198713,United States of America,1
+657,China,35,103,China,645321,25,REC Silicon,45.970868,-112.688913,United States of America,1
+657,China,35,103,China,645321,26,OCI Plant,35.979712,126.662835,South Korea,1
+657,China,35,103,China,645321,27,OCI Malaysia,3.544446,113.305171,Malaysia,1
+657,Turkey,39,36,Turkey,645321,28,NorSun AS,61.236838,7.706991,Norway,1
+657,Turkey,39,36,Turkey,645321,29,Wacker Chemier,51.298992,13.39515,Germany,1
+657,Turkey,39,36,Turkey,645321,30,Hemlock,43.436264,-84.160654,United States of America,1
+657,Turkey,39,36,Turkey,645321,31,Wacker Polysilicon,35.283907,-84.796076,United States of America,1
+657,Turkey,39,36,Turkey,645321,32,REC Silicon ASA,59.90261,10.631623,Norway,1
+657,Turkey,39,36,Turkey,645321,33,REC Silicon,47.134918,-119.198713,United States of America,1
+657,Turkey,39,36,Turkey,645321,34,REC Silicon,45.970868,-112.688913,United States of America,1
+657,Turkey,39,36,Turkey,645321,35,OCI Plant,35.979712,126.662835,South Korea,1
+657,Turkey,39,36,Turkey,645321,36,OCI Malaysia,3.544446,113.305171,Malaysia,1
+657,Spain,40,-3,Spain,645321,37,NorSun AS,61.236838,7.706991,Norway,1
+657,Spain,40,-3,Spain,645321,38,Wacker Chemier,51.298992,13.39515,Germany,1
+657,Spain,40,-3,Spain,645321,39,Hemlock,43.436264,-84.160654,United States of America,1
+657,Spain,40,-3,Spain,645321,40,Wacker Polysilicon,35.283907,-84.796076,United States of America,1
+657,Spain,40,-3,Spain,645321,41,REC Silicon ASA,59.90261,10.631623,Norway,1
+657,Spain,40,-3,Spain,645321,42,REC Silicon,47.134918,-119.198713,United States of America,1
+262,Spain,40,-3,Spain,666365,43,REC Silicon,45.970868,-112.688913,United States of America,1
+262,Spain,40,-3,Spain,666365,44,OCI Plant,35.979712,126.662835,South Korea,1
+262,Spain,40,-3,Spain,666365,45,OCI Malaysia,3.544446,113.305171,Malaysia,1
+262,Indonesia,-2,118,Indonesia,666365,46,NorSun AS,61.236838,7.706991,Norway,1
+262,Indonesia,-2,118,Indonesia,666365,47,Wacker Chemier,51.298992,13.39515,Germany,1
+262,Indonesia,-2,118,Indonesia,666365,48,Hemlock,43.436264,-84.160654,United States of America,1
+262,Indonesia,-2,118,Indonesia,666365,49,Wacker Polysilicon,35.283907,-84.796076,United States of America,1
+262,Indonesia,-2,118,Indonesia,666365,50,REC Silicon ASA,59.90261,10.631623,Norway,1
+262,Indonesia,-2,118,Indonesia,666365,51,REC Silicon,47.134918,-119.198713,United States of America,1
+262,Indonesia,-2,118,Indonesia,666365,52,REC Silicon,45.970868,-112.688913,United States of America,1
+262,Indonesia,-2,118,Indonesia,666365,53,OCI Plant,35.979712,126.662835,South Korea,1
+262,Indonesia,-2,118,Indonesia,666365,54,OCI Malaysia,3.544446,113.305171,Malaysia,1
+262,Australia,-25,135,Australia,666365,55,NorSun AS,61.236838,7.706991,Norway,1
+262,Australia,-25,135,Australia,666365,56,Wacker Chemier,51.298992,13.39515,Germany,1
+183,Australia,-25,135,Australia,765122,57,Hemlock,43.436264,-84.160654,United States of America,1
+183,Australia,-25,135,Australia,765122,58,Wacker Polysilicon,35.283907,-84.796076,United States of America,1
+183,Australia,-25,135,Australia,765122,59,REC Silicon ASA,59.90261,10.631623,Norway,1
+183,Australia,-25,135,Australia,765122,60,REC Silicon,47.134918,-119.198713,United States of America,1
+183,Australia,-25,135,Australia,765122,61,REC Silicon,45.970868,-112.688913,United States of America,1
+183,Australia,-25,135,Australia,765122,62,OCI Plant,35.979712,126.662835,South Korea,1
+183,Australia,-25,135,Australia,765122,63,OCI Malaysia,3.544446,113.305171,Malaysia,1
+183,Canada,56,-109,Canada,765122,64,NorSun AS,61.236838,7.706991,Norway,1
+183,Canada,56,-109,Canada,765122,65,Wacker Chemier,51.298992,13.39515,Germany,1
+183,Canada,56,-109,Canada,765122,66,Hemlock,43.436264,-84.160654,United States of America,1
+183,Canada,56,-109,Canada,765122,67,Wacker Polysilicon,35.283907,-84.796076,United States of America,1
+183,Canada,56,-109,Canada,765122,68,REC Silicon ASA,59.90261,10.631623,Norway,1
+183,Canada,56,-109,Canada,765122,69,REC Silicon,47.134918,-119.198713,United States of America,1
+183,Canada,56,-109,Canada,765122,70,REC Silicon,45.970868,-112.688913,United States of America,1
+183,Canada,56,-109,Canada,765122,71,OCI Plant,35.979712,126.662835,South Korea,1
+183,Canada,56,-109,Canada,765122,72,OCI Malaysia,3.544446,113.305171,Malaysia,1
+183,Chile,-31,-71,Chile,765122,73,NorSun AS,61.236838,7.706991,Norway,1
+183,Chile,-31,-71,Chile,765122,74,Wacker Chemier,51.298992,13.39515,Germany,1
+183,Chile,-31,-71,Chile,765122,75,Hemlock,43.436264,-84.160654,United States of America,1
+183,Chile,-31,-71,Chile,765122,76,Wacker Polysilicon,35.283907,-84.796076,United States of America,1
+183,Chile,-31,-71,Chile,765122,77,REC Silicon ASA,59.90261,10.631623,Norway,1
+183,Chile,-31,-71,Chile,765122,78,REC Silicon,47.134918,-119.198713,United States of America,1
+183,Chile,-31,-71,Chile,765122,79,REC Silicon,45.970868,-112.688913,United States of America,1
+183,Chile,-31,-71,Chile,765122,80,OCI Plant,35.979712,126.662835,South Korea,1
+183,Chile,-31,-71,Chile,765122,81,OCI Malaysia,3.544446,113.305171,Malaysia,1
+183,Peru,-8,-78,Peru,765122,82,NorSun AS,61.236838,7.706991,Norway,1
+183,Peru,-8,-78,Peru,765122,83,Wacker Chemier,51.298992,13.39515,Germany,1
+183,Peru,-8,-78,Peru,765122,84,Hemlock,43.436264,-84.160654,United States of America,1
+183,Peru,-8,-78,Peru,765122,85,Wacker Polysilicon,35.283907,-84.796076,United States of America,1
+183,Peru,-8,-78,Peru,765122,86,REC Silicon ASA,59.90261,10.631623,Norway,1
+183,Peru,-8,-78,Peru,765122,87,REC Silicon,47.134918,-119.198713,United States of America,1
+183,Peru,-8,-78,Peru,765122,88,REC Silicon,45.970868,-112.688913,United States of America,1
+183,Peru,-8,-78,Peru,765122,89,OCI Plant,35.979712,126.662835,South Korea,1
+183,Peru,-8,-78,Peru,765122,90,OCI Malaysia,3.544446,113.305171,Malaysia,1

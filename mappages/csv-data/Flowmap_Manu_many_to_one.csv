@@ -1,0 +1,12 @@
+s_city_id,s_start,s_lat,s_lon,s_country,s_Volume,s_Vol2,e_city_id,e_end,e_lat,e_lon,e_country,e_vol,e_Vol2
+1,France,45.816077,4.726069,France,291099,505,238,Solar Star,34.929592,-118.333979,United States of America,,10
+2,Fab 4,14.27618,121.135141,Philipines,291099,723,238,Solar Star,34.929592,-118.333979,United States of America,,10
+3,Fab 2,14.137501,121.135141,Philipines,291099,770,238,Solar Star,34.929592,-118.333979,United States of America,,10
+4,Brighton,-37.905482,144.999517,Australia,291099,944,238,Solar Star,34.929592,-118.333979,United States of America,,10
+5,Richmond,37.910501,-122.358354,United States of America,291099,876,238,Solar Star,34.929592,-118.333979,United States of America,,10
+6,San Jose,37.404787,-121.946716,United States of America,291099,875,238,Solar Star,34.929592,-118.333979,United States of America,,10
+7,Cape Town,-33.968293,18.576651,South Africa,291099,1004,238,Solar Star,34.929592,-118.333979,United States of America,,10
+8,TEMASOL,33.998192,-6.846631,Morocco,291099,557,238,Solar Star,34.929592,-118.333979,United States of America,,10
+9,Modco,14.27815,121.065836,Philipines,291099,539,238,Solar Star,34.929592,-118.333979,United States of America,,10
+10,Mexicali,32.622782,-115.532608,Mexico,302064,832,623,Solar Star,34.929592,-118.333979,United States of America,,20
+11,Malaysia,2.34049,102.21123,Malaysia,302064,681,623,Solar Star,34.929592,-118.333979,United States of America,,20
