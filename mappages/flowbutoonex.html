@@ -194,12 +194,12 @@
 
           var demoLayer = L.canvasFlowmapLayer(geoJsonFeatureCollection, {
             originAndDestinationFieldIds: {
-              originUniqueIdField: 's_city_id',
+              originUniqueIdField: 's_start',
               originGeometry: {
                 x: 's_lon',
                 y: 's_lat'
               },
-              destinationUniqueIdField: 'e_city_id',
+              destinationUniqueIdField: 'e_end',
               destinationGeometry: {
                 x: 'e_lon',
                 y: 'e_lat'
@@ -224,7 +224,7 @@
 
             // immediately select an origin point for Bezier path display,
             // instead of waiting for the first user click event to fire
-            demoLayer.selectFeaturesForPathDisplayById('s_city_id', 642, true, 'SELECTION_NEW');
+            demoLayer.selectFeaturesForPathDisplayById('s_start', 642, true, 'SELECTION_NEW');
 
             // populate animation easing options for select drop-down
             var pathAnimationStyleSelect = document.getElementById('pathAnimationStyleSelect');
