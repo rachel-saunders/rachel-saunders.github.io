@@ -101,9 +101,9 @@
       <p>
         Explore <strong>origin-to-destination</strong> layers with different relationships:
       </p>
-      <button id="oneToManyLayerButton" class="u-full-width button-primary" value="0">One-to-Many</button>
-      <button id="manyToOneLayerButton" class="u-full-width" value="1">Many-to-One</button>
-      <button id="oneToOneLayerButton" class="u-full-width" value="2">One-to-One</button>
+      <button id="mineToProdLayerButton" class="u-full-width button-primary" value="0">Mines to Production</button>
+      <button id="prodToManuLayerButton" class="u-full-width" value="1">Production to Manufacturing</button>
+      <button id="manuToSolarLayerButton" class="u-full-width" value="2">Manufacturing to Installation</button>
 
       <p>
         Change animation properties:
@@ -251,9 +251,9 @@
     }
 
     // establish references to form elements in the control panel card
-    var oneToManyLayerButton = document.getElementById('oneToManyLayerButton');
-    var manyToOneLayerButton = document.getElementById('manyToOneLayerButton');
-    var oneToOneLayerButton = document.getElementById('oneToOneLayerButton');
+    var mineToProdLayerButton = document.getElementById('mineToProdLayerButton');
+    var prodToManuLayerButton = document.getElementById('prodToManuLayerButton');
+    var manuToSolarLayerButton = document.getElementById('manuToSolarLayerButton');
     var pathAnimationButton = document.getElementById('pathAnimationButton');
     var pathAnimationStyleSelect = document.getElementById('pathAnimationStyleSelect');
     var pathAnimationDurationInput = document.getElementById('pathAnimationDurationInput');
@@ -261,14 +261,14 @@
     var pathSelectionTypeSelect = document.getElementById('pathSelectionTypeSelect');
 
     // establish actions for form elements in the control panel card
-    oneToManyLayerButton.addEventListener('click', toggleActiveLayer);
-    manyToOneLayerButton.addEventListener('click', toggleActiveLayer);
-    oneToOneLayerButton.addEventListener('click', toggleActiveLayer);
+    mineToProdLayerButton.addEventListener('click', toggleActiveLayer);
+    prodToManuLayerButton.addEventListener('click', toggleActiveLayer);
+    manuToSolarLayerButton.addEventListener('click', toggleActiveLayer);
 
     function toggleActiveLayer(evt) {
-      oneToManyLayerButton.classList.remove('button-primary');
-      manyToOneLayerButton.classList.remove('button-primary');
-      oneToOneLayerButton.classList.remove('button-primary');
+      mineToProdLayerButton.classList.remove('button-primary');
+      prodToManuLayerButton.classList.remove('button-primary');
+      manuToSolarLayerButton.classList.remove('button-primary');
 
       layersArray.forEach(function(layer) {
         if (layer.options.customLayerId === Number(evt.target.value)) {
