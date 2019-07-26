@@ -104,6 +104,7 @@
       <button id="mineToProdLayerButton" class="u-full-width button-primary" value="0">Mines to Production</button>
       <button id="prodToManuLayerButton" class="u-full-width" value="1">Production to Manufacturing</button>
       <button id="manuToSolarLayerButton" class="u-full-width" value="2">Manufacturing to Installation</button>
+      <button id="allLayerButton" class="u-full-width" value="2">All of the Data</button>
 
       <p>
         Change animation properties:
@@ -161,7 +162,7 @@
   <script src="https://unpkg.com/papaparse@4.3/papaparse.min.js"></script>
 
   <script>
-    var map = L.map('map').setView([11.9, 38.6], 3.5);
+    var map = L.map('map').setView([11.9, 38.6], 2);
 
     L.esri.basemapLayer('DarkGray').addTo(map);
 
@@ -169,6 +170,7 @@
     createCanvasFlowmapLayer('csv-data/Flowmap_Mines_one_to_many.csv', 0, true);
     createCanvasFlowmapLayer('csv-data/Flowmap_Prods_one_to_many.csv', 1);
     createCanvasFlowmapLayer('csv-data/Flowmap_Manu2_one_to_one.csv', 2);
+    createCanvasFlowmapLayer('csv-data/Flowmap_All_many_to_one.csv', 3)
 
     function createCanvasFlowmapLayer(csvFilePath, customLayerId, doOneTimeDemoSetup) {
       Papa.parse(csvFilePath, {
@@ -254,6 +256,7 @@
     var mineToProdLayerButton = document.getElementById('mineToProdLayerButton');
     var prodToManuLayerButton = document.getElementById('prodToManuLayerButton');
     var manuToSolarLayerButton = document.getElementById('manuToSolarLayerButton');
+    var allLayerButton = document.getElementById('allLayerButton');
     var pathAnimationButton = document.getElementById('pathAnimationButton');
     var pathAnimationStyleSelect = document.getElementById('pathAnimationStyleSelect');
     var pathAnimationDurationInput = document.getElementById('pathAnimationDurationInput');
@@ -264,11 +267,13 @@
     mineToProdLayerButton.addEventListener('click', toggleActiveLayer);
     prodToManuLayerButton.addEventListener('click', toggleActiveLayer);
     manuToSolarLayerButton.addEventListener('click', toggleActiveLayer);
+    allLayerButton.addEventListener('click', toggleActiveLayer);
 
     function toggleActiveLayer(evt) {
       mineToProdLayerButton.classList.remove('button-primary');
       prodToManuLayerButton.classList.remove('button-primary');
       manuToSolarLayerButton.classList.remove('button-primary');
+      allLayerButton.classList.remove('button-primary');
 
       layersArray.forEach(function(layer) {
         if (layer.options.customLayerId === Number(evt.target.value)) {
