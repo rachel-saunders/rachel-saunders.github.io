@@ -1,0 +1,201 @@
+s_start,s_lat,s_lon,s_country,e_end,e_lat,e_lon,e_country
+Brazil,-11,-53,Brazil,NorSun AS,61.236838,7.706991,Norway
+Brazil,-11,-53,Brazil,Wacker Chemier,51.298992,13.39515,Germany
+Brazil,-11,-53,Brazil,Hemlock,43.436264,-84.160654,United States of America
+Brazil,-11,-53,Brazil,Wacker Polysilicon,35.283907,-84.796076,United States of America
+Brazil,-11,-53,Brazil,REC Silicon ASA,59.90261,10.631623,Norway
+Brazil,-11,-53,Brazil,REC Silicon,47.134918,-119.198713,United States of America
+Brazil,-11,-53,Brazil,REC Silicon,45.970868,-112.688913,United States of America
+Brazil,-11,-53,Brazil,OCI Plant,35.979712,126.662835,South Korea
+Brazil,-11,-53,Brazil,OCI Malaysia,3.544446,113.305171,Malaysia
+India,21,77,India,NorSun AS,61.236838,7.706991,Norway
+India,21,77,India,Wacker Chemier,51.298992,13.39515,Germany
+India,21,77,India,Hemlock,43.436264,-84.160654,United States of America
+India,21,77,India,Wacker Polysilicon,35.283907,-84.796076,United States of America
+India,21,77,India,REC Silicon ASA,59.90261,10.631623,Norway
+India,21,77,India,REC Silicon,47.134918,-119.198713,United States of America
+India,21,77,India,REC Silicon,45.970868,-112.688913,United States of America
+India,21,77,India,OCI Plant,35.979712,126.662835,South Korea
+India,21,77,India,OCI Malaysia,3.544446,113.305171,Malaysia
+China,35,103,China,NorSun AS,61.236838,7.706991,Norway
+China,35,103,China,Wacker Chemier,51.298992,13.39515,Germany
+China,35,103,China,Hemlock,43.436264,-84.160654,United States of America
+China,35,103,China,Wacker Polysilicon,35.283907,-84.796076,United States of America
+China,35,103,China,REC Silicon ASA,59.90261,10.631623,Norway
+China,35,103,China,REC Silicon,47.134918,-119.198713,United States of America
+China,35,103,China,REC Silicon,45.970868,-112.688913,United States of America
+China,35,103,China,OCI Plant,35.979712,126.662835,South Korea
+China,35,103,China,OCI Malaysia,3.544446,113.305171,Malaysia
+Turkey,39,36,Turkey,NorSun AS,61.236838,7.706991,Norway
+Turkey,39,36,Turkey,Wacker Chemier,51.298992,13.39515,Germany
+Turkey,39,36,Turkey,Hemlock,43.436264,-84.160654,United States of America
+Turkey,39,36,Turkey,Wacker Polysilicon,35.283907,-84.796076,United States of America
+Turkey,39,36,Turkey,REC Silicon ASA,59.90261,10.631623,Norway
+Turkey,39,36,Turkey,REC Silicon,47.134918,-119.198713,United States of America
+Turkey,39,36,Turkey,REC Silicon,45.970868,-112.688913,United States of America
+Turkey,39,36,Turkey,OCI Plant,35.979712,126.662835,South Korea
+Turkey,39,36,Turkey,OCI Malaysia,3.544446,113.305171,Malaysia
+Spain,40,-3,Spain,NorSun AS,61.236838,7.706991,Norway
+Spain,40,-3,Spain,Wacker Chemier,51.298992,13.39515,Germany
+Spain,40,-3,Spain,Hemlock,43.436264,-84.160654,United States of America
+Spain,40,-3,Spain,Wacker Polysilicon,35.283907,-84.796076,United States of America
+Spain,40,-3,Spain,REC Silicon ASA,59.90261,10.631623,Norway
+Spain,40,-3,Spain,REC Silicon,47.134918,-119.198713,United States of America
+Spain,40,-3,Spain,REC Silicon,45.970868,-112.688913,United States of America
+Spain,40,-3,Spain,OCI Plant,35.979712,126.662835,South Korea
+Spain,40,-3,Spain,OCI Malaysia,3.544446,113.305171,Malaysia
+Indonesia,-2,118,Indonesia,NorSun AS,61.236838,7.706991,Norway
+Indonesia,-2,118,Indonesia,Wacker Chemier,51.298992,13.39515,Germany
+Indonesia,-2,118,Indonesia,Hemlock,43.436264,-84.160654,United States of America
+Indonesia,-2,118,Indonesia,Wacker Polysilicon,35.283907,-84.796076,United States of America
+Indonesia,-2,118,Indonesia,REC Silicon ASA,59.90261,10.631623,Norway
+Indonesia,-2,118,Indonesia,REC Silicon,47.134918,-119.198713,United States of America
+Indonesia,-2,118,Indonesia,REC Silicon,45.970868,-112.688913,United States of America
+Indonesia,-2,118,Indonesia,OCI Plant,35.979712,126.662835,South Korea
+Indonesia,-2,118,Indonesia,OCI Malaysia,3.544446,113.305171,Malaysia
+Australia,-25,135,Australia,NorSun AS,61.236838,7.706991,Norway
+Australia,-25,135,Australia,Wacker Chemier,51.298992,13.39515,Germany
+Australia,-25,135,Australia,Hemlock,43.436264,-84.160654,United States of America
+Australia,-25,135,Australia,Wacker Polysilicon,35.283907,-84.796076,United States of America
+Australia,-25,135,Australia,REC Silicon ASA,59.90261,10.631623,Norway
+Australia,-25,135,Australia,REC Silicon,47.134918,-119.198713,United States of America
+Australia,-25,135,Australia,REC Silicon,45.970868,-112.688913,United States of America
+Australia,-25,135,Australia,OCI Plant,35.979712,126.662835,South Korea
+Australia,-25,135,Australia,OCI Malaysia,3.544446,113.305171,Malaysia
+Canada,56,-109,Canada,NorSun AS,61.236838,7.706991,Norway
+Canada,56,-109,Canada,Wacker Chemier,51.298992,13.39515,Germany
+Canada,56,-109,Canada,Hemlock,43.436264,-84.160654,United States of America
+Canada,56,-109,Canada,Wacker Polysilicon,35.283907,-84.796076,United States of America
+Canada,56,-109,Canada,REC Silicon ASA,59.90261,10.631623,Norway
+Canada,56,-109,Canada,REC Silicon,47.134918,-119.198713,United States of America
+Canada,56,-109,Canada,REC Silicon,45.970868,-112.688913,United States of America
+Canada,56,-109,Canada,OCI Plant,35.979712,126.662835,South Korea
+Canada,56,-109,Canada,OCI Malaysia,3.544446,113.305171,Malaysia
+Chile,-31,-71,Chile,NorSun AS,61.236838,7.706991,Norway
+Chile,-31,-71,Chile,Wacker Chemier,51.298992,13.39515,Germany
+Chile,-31,-71,Chile,Hemlock,43.436264,-84.160654,United States of America
+Chile,-31,-71,Chile,Wacker Polysilicon,35.283907,-84.796076,United States of America
+Chile,-31,-71,Chile,REC Silicon ASA,59.90261,10.631623,Norway
+Chile,-31,-71,Chile,REC Silicon,47.134918,-119.198713,United States of America
+Chile,-31,-71,Chile,REC Silicon,45.970868,-112.688913,United States of America
+Chile,-31,-71,Chile,OCI Plant,35.979712,126.662835,South Korea
+Chile,-31,-71,Chile,OCI Malaysia,3.544446,113.305171,Malaysia
+Peru,-8,-78,Peru,NorSun AS,61.236838,7.706991,Norway
+Peru,-8,-78,Peru,Wacker Chemier,51.298992,13.39515,Germany
+Peru,-8,-78,Peru,Hemlock,43.436264,-84.160654,United States of America
+Peru,-8,-78,Peru,Wacker Polysilicon,35.283907,-84.796076,United States of America
+Peru,-8,-78,Peru,REC Silicon ASA,59.90261,10.631623,Norway
+Peru,-8,-78,Peru,REC Silicon,47.134918,-119.198713,United States of America
+Peru,-8,-78,Peru,REC Silicon,45.970868,-112.688913,United States of America
+Peru,-8,-78,Peru,OCI Plant,35.979712,126.662835,South Korea
+Peru,-8,-78,Peru,OCI Malaysia,3.544446,113.305171,Malaysia
+NorSun AS,61.236838,7.706991,Norway,France,45.816077,4.726069,France
+NorSun AS,61.236838,7.706991,Norway,Fab 4,14.27618,121.135141,Philipines
+NorSun AS,61.236838,7.706991,Norway,Fab 2,14.137501,121.135141,Philipines
+NorSun AS,61.236838,7.706991,Norway,Brighton,-37.905482,144.999517,Australia
+NorSun AS,61.236838,7.706991,Norway,Richmond,37.910501,-122.358354,United States of America
+NorSun AS,61.236838,7.706991,Norway,San Jose,37.404787,-121.946716,United States of America
+NorSun AS,61.236838,7.706991,Norway,Cape Town,-33.968293,18.576651,South Africa
+NorSun AS,61.236838,7.706991,Norway,TEMASOL,33.998192,-6.846631,Morocco
+NorSun AS,61.236838,7.706991,Norway,Modco,14.27815,121.065836,Philipines
+NorSun AS,61.236838,7.706991,Norway,Mexicali,32.622782,-115.532608,Mexico
+NorSun AS,61.236838,7.706991,Norway,Malaysia,2.34049,102.21123,Malaysia
+Wacker Chemier,51.298992,13.39515,Germany,France,45.816077,4.726069,France
+Wacker Chemier,51.298992,13.39515,Germany,Fab 4,14.27618,121.135141,Philipines
+Wacker Chemier,51.298992,13.39515,Germany,Fab 2,14.137501,121.135141,Philipines
+Wacker Chemier,51.298992,13.39515,Germany,Brighton,-37.905482,144.999517,Australia
+Wacker Chemier,51.298992,13.39515,Germany,Richmond,37.910501,-122.358354,United States of America
+Wacker Chemier,51.298992,13.39515,Germany,San Jose,37.404787,-121.946716,United States of America
+Wacker Chemier,51.298992,13.39515,Germany,Cape Town,-33.968293,18.576651,South Africa
+Wacker Chemier,51.298992,13.39515,Germany,TEMASOL,33.998192,-6.846631,Morocco
+Wacker Chemier,51.298992,13.39515,Germany,Modco,14.27815,121.065836,Philipines
+Wacker Chemier,51.298992,13.39515,Germany,Mexicali,32.622782,-115.532608,Mexico
+Wacker Chemier,51.298992,13.39515,Germany,Malaysia,2.34049,102.21123,Malaysia
+Hemlock,43.436264,-84.160654,United States of America,France,45.816077,4.726069,France
+Hemlock,43.436264,-84.160654,United States of America,Fab 4,14.27618,121.135141,Philipines
+Hemlock,43.436264,-84.160654,United States of America,Fab 2,14.137501,121.135141,Philipines
+Hemlock,43.436264,-84.160654,United States of America,Brighton,-37.905482,144.999517,Australia
+Hemlock,43.436264,-84.160654,United States of America,Richmond,37.910501,-122.358354,United States of America
+Hemlock,43.436264,-84.160654,United States of America,San Jose,37.404787,-121.946716,United States of America
+Hemlock,43.436264,-84.160654,United States of America,Cape Town,-33.968293,18.576651,South Africa
+Hemlock,43.436264,-84.160654,United States of America,TEMASOL,33.998192,-6.846631,Morocco
+Hemlock,43.436264,-84.160654,United States of America,Modco,14.27815,121.065836,Philipines
+Hemlock,43.436264,-84.160654,United States of America,Mexicali,32.622782,-115.532608,Mexico
+Hemlock,43.436264,-84.160654,United States of America,Malaysia,2.34049,102.21123,Malaysia
+Wacker Polysilicon,35.283907,-84.796076,United States of America,France,45.816077,4.726069,France
+Wacker Polysilicon,35.283907,-84.796076,United States of America,Fab 4,14.27618,121.135141,Philipines
+Wacker Polysilicon,35.283907,-84.796076,United States of America,Fab 2,14.137501,121.135141,Philipines
+Wacker Polysilicon,35.283907,-84.796076,United States of America,Brighton,-37.905482,144.999517,Australia
+Wacker Polysilicon,35.283907,-84.796076,United States of America,Richmond,37.910501,-122.358354,United States of America
+Wacker Polysilicon,35.283907,-84.796076,United States of America,San Jose,37.404787,-121.946716,United States of America
+Wacker Polysilicon,35.283907,-84.796076,United States of America,Cape Town,-33.968293,18.576651,South Africa
+Wacker Polysilicon,35.283907,-84.796076,United States of America,TEMASOL,33.998192,-6.846631,Morocco
+Wacker Polysilicon,35.283907,-84.796076,United States of America,Modco,14.27815,121.065836,Philipines
+Wacker Polysilicon,35.283907,-84.796076,United States of America,Mexicali,32.622782,-115.532608,Mexico
+REC Silicon ASA,59.90261,10.631623,Norway,Malaysia,2.34049,102.21123,Malaysia
+REC Silicon ASA,59.90261,10.631623,Norway,France,45.816077,4.726069,France
+REC Silicon ASA,59.90261,10.631623,Norway,Fab 4,14.27618,121.135141,Philipines
+REC Silicon ASA,59.90261,10.631623,Norway,Fab 2,14.137501,121.135141,Philipines
+REC Silicon ASA,59.90261,10.631623,Norway,Brighton,-37.905482,144.999517,Australia
+REC Silicon ASA,59.90261,10.631623,Norway,Richmond,37.910501,-122.358354,United States of America
+REC Silicon ASA,59.90261,10.631623,Norway,San Jose,37.404787,-121.946716,United States of America
+REC Silicon ASA,59.90261,10.631623,Norway,Cape Town,-33.968293,18.576651,South Africa
+REC Silicon ASA,59.90261,10.631623,Norway,TEMASOL,33.998192,-6.846631,Morocco
+REC Silicon ASA,59.90261,10.631623,Norway,Modco,14.27815,121.065836,Philipines
+REC Silicon ASA,59.90261,10.631623,Norway,Mexicali,32.622782,-115.532608,Mexico
+REC Silicon,47.134918,-119.198713,United States of America,Malaysia,2.34049,102.21123,Malaysia
+REC Silicon,47.134918,-119.198713,United States of America,France,45.816077,4.726069,France
+REC Silicon,47.134918,-119.198713,United States of America,Fab 4,14.27618,121.135141,Philipines
+REC Silicon,47.134918,-119.198713,United States of America,Fab 2,14.137501,121.135141,Philipines
+REC Silicon,47.134918,-119.198713,United States of America,Brighton,-37.905482,144.999517,Australia
+REC Silicon,47.134918,-119.198713,United States of America,Richmond,37.910501,-122.358354,United States of America
+REC Silicon,47.134918,-119.198713,United States of America,San Jose,37.404787,-121.946716,United States of America
+REC Silicon,47.134918,-119.198713,United States of America,Cape Town,-33.968293,18.576651,South Africa
+REC Silicon,47.134918,-119.198713,United States of America,TEMASOL,33.998192,-6.846631,Morocco
+REC Silicon,47.134918,-119.198713,United States of America,Modco,14.27815,121.065836,Philipines
+REC Silicon,47.134918,-119.198713,United States of America,Mexicali,32.622782,-115.532608,Mexico
+REC Silicon,45.970868,-112.688913,United States of America,Malaysia,2.34049,102.21123,Malaysia
+REC Silicon,45.970868,-112.688913,United States of America,France,45.816077,4.726069,France
+REC Silicon,45.970868,-112.688913,United States of America,Fab 4,14.27618,121.135141,Philipines
+REC Silicon,45.970868,-112.688913,United States of America,Fab 2,14.137501,121.135141,Philipines
+REC Silicon,45.970868,-112.688913,United States of America,Brighton,-37.905482,144.999517,Australia
+REC Silicon,45.970868,-112.688913,United States of America,Richmond,37.910501,-122.358354,United States of America
+REC Silicon,45.970868,-112.688913,United States of America,San Jose,37.404787,-121.946716,United States of America
+REC Silicon,45.970868,-112.688913,United States of America,Cape Town,-33.968293,18.576651,South Africa
+REC Silicon,45.970868,-112.688913,United States of America,TEMASOL,33.998192,-6.846631,Morocco
+REC Silicon,45.970868,-112.688913,United States of America,Modco,14.27815,121.065836,Philipines
+REC Silicon,45.970868,-112.688913,United States of America,Mexicali,32.622782,-115.532608,Mexico
+OCI Plant,35.979712,126.662835,South Korea,Malaysia,2.34049,102.21123,Malaysia
+OCI Plant,35.979712,126.662835,South Korea,France,45.816077,4.726069,France
+OCI Plant,35.979712,126.662835,South Korea,Fab 4,14.27618,121.135141,Philipines
+OCI Plant,35.979712,126.662835,South Korea,Fab 2,14.137501,121.135141,Philipines
+OCI Plant,35.979712,126.662835,South Korea,Brighton,-37.905482,144.999517,Australia
+OCI Plant,35.979712,126.662835,South Korea,Richmond,37.910501,-122.358354,United States of America
+OCI Plant,35.979712,126.662835,South Korea,San Jose,37.404787,-121.946716,United States of America
+OCI Plant,35.979712,126.662835,South Korea,Cape Town,-33.968293,18.576651,South Africa
+OCI Plant,35.979712,126.662835,South Korea,TEMASOL,33.998192,-6.846631,Morocco
+OCI Plant,35.979712,126.662835,South Korea,Modco,14.27815,121.065836,Philipines
+OCI Plant,35.979712,126.662835,South Korea,Mexicali,32.622782,-115.532608,Mexico
+OCI Malaysia,3.544446,113.305171,Malaysia,Malaysia,2.34049,102.21123,Malaysia
+OCI Malaysia,3.544446,113.305171,Malaysia,France,45.816077,4.726069,France
+OCI Malaysia,3.544446,113.305171,Malaysia,Fab 4,14.27618,121.135141,Philipines
+OCI Malaysia,3.544446,113.305171,Malaysia,Fab 2,14.137501,121.135141,Philipines
+OCI Malaysia,3.544446,113.305171,Malaysia,Brighton,-37.905482,144.999517,Australia
+OCI Malaysia,3.544446,113.305171,Malaysia,Richmond,37.910501,-122.358354,United States of America
+OCI Malaysia,3.544446,113.305171,Malaysia,San Jose,37.404787,-121.946716,United States of America
+OCI Malaysia,3.544446,113.305171,Malaysia,Cape Town,-33.968293,18.576651,South Africa
+OCI Malaysia,3.544446,113.305171,Malaysia,TEMASOL,33.998192,-6.846631,Morocco
+OCI Malaysia,3.544446,113.305171,Malaysia,Modco,14.27815,121.065836,Philipines
+OCI Malaysia,3.544446,113.305171,Malaysia,Mexicali,32.622782,-115.532608,Mexico
+OCI Malaysia,3.544446,113.305171,Malaysia,Malaysia,2.34049,102.21123,Malaysia
+Solar Star,34.929592,-118.333979,United States of America,France,45.816077,4.726069,France
+Solar Star,34.929592,-118.333979,United States of America,Fab 4,14.27618,121.135141,Philipines
+Solar Star,34.929592,-118.333979,United States of America,Fab 2,14.137501,121.135141,Philipines
+Solar Star,34.929592,-118.333979,United States of America,Brighton,-37.905482,144.999517,Australia
+Solar Star,34.929592,-118.333979,United States of America,Richmond,37.910501,-122.358354,United States of America
+Solar Star,34.929592,-118.333979,United States of America,San Jose,37.404787,-121.946716,United States of America
+Solar Star,34.929592,-118.333979,United States of America,Cape Town,-33.968293,18.576651,South Africa
+Solar Star,34.929592,-118.333979,United States of America,TEMASOL,33.998192,-6.846631,Morocco
+Solar Star,34.929592,-118.333979,United States of America,Modco,14.27815,121.065836,Philipines
+Solar Star,34.929592,-118.333979,United States of America,Mexicali,32.622782,-115.532608,Mexico
+Solar Star,34.929592,-118.333979,United States of America,Malaysia,2.34049,102.21123,Malaysia
