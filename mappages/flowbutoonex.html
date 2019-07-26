@@ -168,7 +168,7 @@
     var layersArray = [];
     createCanvasFlowmapLayer('csv-data/Flowmap_Mines_one_to_many.csv', 0, true);
     createCanvasFlowmapLayer('csv-data/Flowmap_Prods_one_to_many.csv', 1);
-    createCanvasFlowmapLayer('csv-data/Flowmap_Manu_many_to_one.csv', 2);
+    createCanvasFlowmapLayer('csv-data/Flowmap_Manu2_one_to_one.csv', 2);
 
     function createCanvasFlowmapLayer(csvFilePath, customLayerId, doOneTimeDemoSetup) {
       Papa.parse(csvFilePath, {
@@ -352,3 +352,5 @@
 </body>
 
 </html>
+
+<!--code adapted from https://jwasilgeo.github.io/Leaflet.Canvas-Flowmap-Layer/docs/comparison/-->
