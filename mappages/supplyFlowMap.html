@@ -36,7 +36,7 @@
       margin-bottom: 25px;
       z-index: 1000;
       max-width: 350px;
-      max-height: 515px;
+      max-height: 750px;
       overflow-y: auto;
       border-top: 3px solid #33C3F0;
       border-bottom: 3px solid #33C3F0;
@@ -83,6 +83,37 @@
         width: 100%;
       }
     }
+    /*next and previous buttons for other maps*/
+        a {
+		  text-decoration: none;
+		  display: inline-block;
+		  padding: 2px 12px;
+		}
+
+		a:hover {
+		  background-color: #ddd;
+		  color: black;
+		}
+
+
+	.previous {
+	  background-color: #f1f1f1;
+	  color: black;
+	}
+
+	.home {
+		background-color: #f1f1f1;
+		color: black;
+	}
+
+	.next {
+	  background-color: #f1f1f1;
+	  color: black;
+	}
+
+	.round {
+	  border-radius: 50%;
+	}
 
   </style>
 
@@ -96,10 +127,15 @@
 
     <div class="container" style="width: 100%; padding: 5px 10px;">
 
+		<a href='map3rights.html' class="previous">&laquo; Rights Map</a>
+      	<a href='home.html' class="home">Home</a>
+		<a href='map2sites.html' class="next">Sites Map &raquo;</a>
+
       <h4>SunPower Supply Chain Flowmap</h4>
+      <h4 style="font-size:100%;">Study Area: Solar Star Farm California</h4>
 
       <p>
-        Connect the movement of goods through the SunPower Corp. supply chain from <strong>mining</strong> raw materials such as quartz and copper ore, to third-party <strong>production</strong> facilities that make ignots and wafers that are then sent to  <strong>manufacturing</strong> locations where the solar cells and panels are assembled and finally to an <strong>installation</strong> site which is the Solar Star site in California containing 1.7 million solar panels.
+        Connect the movement of goods through the SunPower Corp. supply chain from <strong>mining</strong> raw materials such as quartz and copper ore, to third-party <strong>production</strong> facilities that make ignots and wafers that are then sent to  <strong>manufacturing</strong> locations where the solar cells and panels are assembled and finally to an <strong>installation</strong> site which is the <strong>Solar Star</strong> site in California containing 1.7 million solar panels.
       </p>
       <button id="mineToProdLayerButton" class="u-full-width button-primary" value="0">Mines to Production</button>
       <button id="prodToManuLayerButton" class="u-full-width" value="1">Production to Manufacturing</button>
@@ -143,6 +179,8 @@
         </div>
       </div>
 
+      
+
     </div>
 
   </div>
@@ -163,7 +201,7 @@
   <script src="https://unpkg.com/papaparse@4.3/papaparse.min.js"></script>
 
   <script>
-    var map = L.map('map').setView([14.9, 38.6], 2);
+    var map = L.map('map').setView([34, 50], 2.3);
 
     L.esri.basemapLayer('DarkGray').addTo(map);
 
