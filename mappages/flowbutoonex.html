@@ -113,9 +113,10 @@
         <div class="six columns">
           <button id="pathAnimationButton" class="u-full-width">Pause</button>
         </div>
-        <div class="six columns">
+      <!--  <div class="six columns">
           <select id="pathAnimationStyleSelect" class="u-full-width"></select>
         </div>
+       --> 
       </div>
 
       <label>
@@ -229,7 +230,7 @@
             demoLayer.selectFeaturesForPathDisplayById('s_start', 642, true, 'SELECTION_NEW');
 
             // populate animation easing options for select drop-down
-            var pathAnimationStyleSelect = document.getElementById('pathAnimationStyleSelect');
+          /*  var pathAnimationStyleSelect = document.getElementById('pathAnimationStyleSelect');
             var tweenEasingFamilies = demoLayer.getAnimationEasingOptions();
             Object.keys(tweenEasingFamilies).forEach(function(family) {
               tweenEasingFamilies[family].types.forEach(function(type) {
@@ -246,7 +247,9 @@
 
                 pathAnimationStyleSelect.add(option);
               });
+
             });
+          */  
           }
         }
       });
@@ -258,7 +261,7 @@
     var manuToSolarLayerButton = document.getElementById('manuToSolarLayerButton');
     var allLayerButton = document.getElementById('allLayerButton');
     var pathAnimationButton = document.getElementById('pathAnimationButton');
-    var pathAnimationStyleSelect = document.getElementById('pathAnimationStyleSelect');
+   // var pathAnimationStyleSelect = document.getElementById('pathAnimationStyleSelect');
     var pathAnimationDurationInput = document.getElementById('pathAnimationDurationInput');
     var userInteractionSelect = document.getElementById('userInteractionSelect');
     var pathSelectionTypeSelect = document.getElementById('pathSelectionTypeSelect');
@@ -290,7 +293,7 @@
       evt.target.classList.add('button-primary');
     }
 
-    pathAnimationStyleSelect.addEventListener('change', function(evt) {
+   /* pathAnimationStyleSelect.addEventListener('change', function(evt) {
       var optionValueToArray = evt.target.value.split(',');
       var easingFamily = optionValueToArray[0];
       var easingType = optionValueToArray[1];
@@ -299,7 +302,7 @@
         layer.setAnimationEasing(easingFamily, easingType);
       });
     });
-
+  */
     pathAnimationButton.addEventListener('click', function(evt) {
       if (evt.target.innerHTML === 'Pause') {
         evt.target.classList.add('button-primary');
