@@ -130,8 +130,8 @@
       <div class="row">
         <div class="six columns">
           <select id="userInteractionSelect" class="u-full-width">
-            <option value="click" selected>Click</option>
-            <option value="mouseover">Mouseover</option>
+            <option value="mouseover" selected>Mouseover</option>
+            <option value="click">Click</option>
           </select>
         </div>
         <div class="six columns">
@@ -331,17 +331,17 @@
     userInteractionSelect.addEventListener('change', layerListenerChange);
 
     function layerListenerChange(e) {
-      if (e.target.value === 'click') {
-        layersArray.forEach(function(layer) {
-          layer.off('mouseover', handleLayerInteraction);
-          layer.off('click', handleLayerInteraction);
-          layer.on('click', handleLayerInteraction);
-        });
-      } else {
+      if (e.target.value === 'mouseover') {
         layersArray.forEach(function(layer) {
           layer.off('click', handleLayerInteraction);
           layer.off('mouseover', handleLayerInteraction);
           layer.on('mouseover', handleLayerInteraction);
+        });
+      } else {
+        layersArray.forEach(function(layer) {
+          layer.off('mouseover', handleLayerInteraction);
+          layer.off('click', handleLayerInteraction);
+          layer.on('click', handleLayerInteraction);
         });
       }
     }
