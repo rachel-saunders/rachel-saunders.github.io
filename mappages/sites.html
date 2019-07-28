@@ -6,6 +6,8 @@
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.1/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="sitesAssets/sites.css"/>
+    <script src="sitesAssets/sites.js"></script>
     <style>
         body { margin:0; padding:0; }
         #map { position:absolute; top:0; bottom:0; width:100%; }
@@ -17,17 +19,17 @@
 <style>
 #map {
     position: fixed;
-    width:70%;
+    width:60%;
 }
 #features {
-    width: 30%;
-    margin-left: 70%;
+    width: 40%;
+    margin-left: 60%;
     font-family: sans-serif;
     /*overflow-y: scroll;*/
     background-color: #fafafa;
 }
 section {
-    padding:  320px 50px;
+    padding:  50px 50px;
     line-height: 25px;
     border-bottom: 1px solid #ddd;
     opacity: 0.25;
@@ -42,6 +44,7 @@ section:last-child {
 }
 </style>
 
+
 <div id='map'></div>
 <div id='features'>
     <section id='worldView' class='active'>
@@ -49,8 +52,53 @@ section:last-child {
         <p>Solar energy and solar technology is growing quickly as a SunPower Corp. is a leader in solar technology. The company lists many sustainable efforts and achievements that might lead consumers to believe SunPower is fix later with something better</p>
     </section>
     <section id='sanJose'>
-        <h3>SunPower SanJose, California</h3>
+        <h1>SunPower SanJose, California</h1>
         <p>Arthur Cadogan West was found dead, head crushed in on train tracks at Aldgate Station at 6AM Tuesday morning. West worked at Woolwich Arsenal on the Bruce-Partington submarine, a secret military project. Plans for the submarine had been stolen and seven of the ten missing papers were found in West's possession. Mycroft implores Sherlock to take the case and recover the three missing papers.</p>
+
+        <p><strong>The image below is a compilation of avaliable historical Google Earth images for the specificed manufactuirng site.</strong></p>
+        
+        <img id="myImg" src="sitesImages/sjImages.JPG" alt="Historical Google Earth Images of the SanJose Manufacturing Site" style="width:100%;">
+        <p class="small">Click on the image to enlarge</p>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+        <script>
+          //get modal
+          var modal = document.getElementById("myModal");
+          //get image and insert inside modal
+          var img = document.getElementById("myImg");
+          var modalImg = document.getElementById("img01");
+          var captionText = document.getElementById("caption");
+          img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+          }  
+          //get the <span> element to close modal
+          var span = document.getElementsByClassName("close")[0];
+          //when user clicks on x close modal
+          span.onclick = function() {
+            modal.style.display = "none";
+          }
+         </script> 
+
+         <p>Use the blue slide to compare the site from 1993 to 2018</p>
+         <div class="img-comp-container">
+            <div class="img-comp-img">
+                <img src="sitesImages/sj_2018.JPG" width="300" height="200">
+            </div> 
+            <div class="img-comp-img img-comp-overlay">
+                <img src="sitesImages/sj_1993.JPG" width="300" height="200">
+            </div>
+        </div>  
+        <script>
+            initComparisons();
+        </script>
+              
     </section>
     <section id='richmond'>
         <h3>SunPower Richmond, California</h3>
@@ -122,7 +170,7 @@ var chapters = {
         duration: 6000,
         center: [-121.946716, 37.404787],
         bearing: 150,
-        zoom: 15,
+        zoom: 17,
         pitch: 0
     },
     'richmond': {
