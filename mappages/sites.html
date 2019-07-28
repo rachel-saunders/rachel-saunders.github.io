@@ -29,7 +29,7 @@
     background-color: #fafafa;
 }
 section {
-    padding:  50px 50px;
+    padding:  80px 50px;
     line-height: 25px;
     border-bottom: 1px solid #ddd;
     opacity: 0.25;
@@ -42,15 +42,51 @@ section:last-child {
     border-bottom: none;
     margin-bottom: 200px;
 }
-</style>
+/*next and previous buttons for other maps*/
+a {
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+  padding: 2px 12px;
+}
 
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.home {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.round {
+  border-radius: 50%;
+}
+</style>
 
 <div id='map'></div>
 <div id='features'>
     <section id='worldView' class='active'>
-        <h3>SunPower Manufacturing Sites and Solar Star Location</h3>
+        <a href='supplyFlowMap.html' class="previous">&laquo; Supply Chain Map</a>
+        <a href='home.html' class="home">Home</a>
+        <a href='rights.html' class="next">Rights & Labor Map &raquo;</a>
+
+        <h1>SunPower Manufacturing Sites and Solar Star Location</h1>
         <p>Solar energy and solar technology is growing quickly as a SunPower Corp. is a leader in solar technology. The company lists many sustainable efforts and achievements that might lead consumers to believe SunPower is fix later with something better</p>
     </section>
+<!--SanJose-->    
     <section id='sanJose'>
         <h1>SunPower SanJose, California</h1>
         <p>Arthur Cadogan West was found dead, head crushed in on train tracks at Aldgate Station at 6AM Tuesday morning. West worked at Woolwich Arsenal on the Bruce-Partington submarine, a secret military project. Plans for the submarine had been stolen and seven of the ten missing papers were found in West's possession. Mycroft implores Sherlock to take the case and recover the three missing papers.</p>
@@ -96,48 +132,441 @@ section:last-child {
             </div>
         </div>  
         <script>
-            initComparisons();
+            initComparisons2();
         </script>
-              
+ <!--Richmond-->             
     </section>
     <section id='richmond'>
-        <h3>SunPower Richmond, California</h3>
+        <h1>SunPower Richmond, California</h1>
         <p>Holmes and Watson's investigations take them across London. Sherlock deduces that West was murdered elsewhere, then moved to Aldgate Station to create the illusion that he was crushed on the tracks by a train. On their way to Woolwich Sherlock dispatches a telegram to Mycroft at London Bridge: "Send list of all foreign spies known to be in England, with full address."</p>
+        <p><strong>The image below is a compilation of avaliable historical Google Earth images for the specificed manufactuirng site.</strong></p>
+        
+        <img id="myImg1" src="sitesImages/richmondImages.JPG" alt="Historical Google Earth Images of the SanJose Manufacturing Site" style="width:100%;">
+        <p class="small">Click on the image to enlarge</p>
+
+        <!-- The Modal -->
+        <div id="myModal1" class="modal1">
+            <span class="close1">&times;</span>
+            <img class="modal-content1" id="img02">
+            <div id="caption1"></div>
+        </div>
+        <script>
+          //get modal
+          var modal1 = document.getElementById("myModal1");
+          //get image and insert inside modal
+          var img1 = document.getElementById("myImg1");
+          var modalImg1 = document.getElementById("img02");
+          var captionText1 = document.getElementById("caption1");
+          img1.onclick = function(){
+            modal1.style.display = "block";
+            modalImg1.src = this.src;
+            captionText1.innerHTML = this.alt;
+          }  
+          //get the <span> element to close modal
+          var span1 = document.getElementsByClassName("close1")[0];
+          //when user clicks on x close modal
+          span1.onclick = function() {
+            modal1.style.display = "none";
+          }
+         </script> 
+
+         <p>Use the blue slide to compare the site from 1993 to 2018</p>
+         <div class="img-comp-container1">
+            <div class="img-comp-img1">
+                <img src="sitesImages/rich_2018.JPG" width="300" height="200">
+            </div> 
+            <div class="img-comp-img1 img-comp-overlay1">
+                <img src="sitesImages/rich_1993.JPG" width="300" height="200">
+            </div>
+        </div>  
+        <script>
+            initComparisons1();
+        </script>
+<!--Mexicali-->
     </section>
     <section id='mexicali'>
         <h3>SunPower Mexicali, Mexico</h3>
         <p>While investigating at Woolwich Arsenal Sherlock learns that West did not have the three keys&mdash;door, office, and safe&mdash;necessary to steal the papers. The train station clerk mentions seeing an agitated West boarding the 8:15 train to London Bridge. Sherlock suspects West of following someone who had access to the Woolwich chief's keyring with all three keys.</p>
+        <p><strong>The image below is a compilation of avaliable historical Google Earth images for the specificed manufactuirng site.</strong></p>
+        
+        <img id="myImg3" src="sitesImages/mexicaliImages.JPG" alt="Historical Google Earth Images of the SanJose Manufacturing Site" style="width:100%;">
+        <p class="small">Click on the image to enlarge</p>
+
+        <!-- The Modal -->
+        <div id="myModal3" class="modal3">
+            <span class="close3">&times;</span>
+            <img class="modal-content3" id="img03">
+            <div id="caption3"></div>
+        </div>
+        <script>
+          //get modal
+          var modal3 = document.getElementById("myModal3");
+          //get image and insert inside modal
+          var img3 = document.getElementById("myImg3");
+          var modalImg3 = document.getElementById("img03");
+          var captionText3 = document.getElementById("caption3");
+          img3.onclick = function(){
+            modal3.style.display = "block";
+            modalImg3.src = this.src;
+            captionText3.innerHTML = this.alt;
+          }  
+          //get the <span> element to close modal
+          var span3 = document.getElementsByClassName("close3")[0];
+          //when user clicks on x close modal
+          span3.onclick = function() {
+            modal3.style.display = "none";
+          }
+         </script> 
+
+         <p>Use the blue slide to compare the site from 1993 to 2018</p>
+         <div class="img-comp-container3">
+            <div class="img-comp-img3">
+                <img src="sitesImages/mex_2018.JPG" width="300" height="200">
+            </div> 
+            <div class="img-comp-img3 img-comp-overlay3">
+                <img src="sitesImages/mex_1996.JPG" width="300" height="200">
+            </div>
+        </div>  
+        <script>
+            initComparisons3();
+        </script>
+
     </section>
     <section id='france'>
         <h3>SunPower France</h3>
         <p>Mycroft responds to Sherlock's telegram and mentions several spies. Hugo Oberstein of 13 Caulfield Gardens catches Sherlock's eye. He heads to the nearby Gloucester Road station to investigate and learns that the windows of Caulfield Gardens open over rail tracks where trains stop frequently.</p>
+        <p><strong>The image below is a compilation of avaliable historical Google Earth images for the specificed manufactuirng site.</strong></p>
+        
+        <img id="myImg4" src="sitesImages/franceImages.JPG" alt="Historical Google Earth Images of the SanJose Manufacturing Site" style="width:100%;">
+        <p class="small">Click on the image to enlarge</p>
+
+        <!-- The Modal -->
+        <div id="myModal4" class="modal4">
+            <span class="close4">&times;</span>
+            <img class="modal-content4" id="img04">
+            <div id="caption4"></div>
+        </div>
+        <script>
+          //get modal
+          var modal4 = document.getElementById("myModal4");
+          //get image and insert inside modal
+          var img4 = document.getElementById("myImg4");
+          var modalImg4 = document.getElementById("img04");
+          var captionText4 = document.getElementById("caption4");
+          img4.onclick = function(){
+            modal4.style.display = "block";
+            modalImg4.src = this.src;
+            captionText4.innerHTML = this.alt;
+          }  
+          //get the <span> element to close modal
+          var span4 = document.getElementsByClassName("close4")[0];
+          //when user clicks on x close modal
+          span4.onclick = function() {
+            modal4.style.display = "none";
+          }
+         </script> 
+
+         <p>Use the blue slide to compare the site from 1993 to 2018</p>
+         <div class="img-comp-container4">
+            <div class="img-comp-img4">
+                <img src="sitesImages/france_2018.JPG" width="300" height="200">
+            </div> 
+            <div class="img-comp-img4 img-comp-overlay4">
+                <img src="sitesImages/france_2005.JPG" width="300" height="200">
+            </div>
+        </div>  
+        <script>
+            initComparisons4();
+        </script>
+
     </section>
     <section id='morocco'>
         <h3>SunPower TEMASOL</h3>
         <p>Holmes deduces that the murderer placed West atop a stopped train at Caulfield Gardens. The train traveled to Aldgate Station before West's body finally toppled off. Backtracking to the criminal's apartment, Holmes finds a series of classified ads from <em>The Daily Telegraph</em> stashed away. All are under the name Pierrot: "Monday night after nine. Two taps. Only ourselves. Do not be so suspicious. Payment in hard cash when goods delivered."</p>
+        <p><strong>The image below is a compilation of avaliable historical Google Earth images for the specificed manufactuirng site.</strong></p>
+        
+        <img id="myImg5" src="sitesImages/temasolImages.JPG" alt="Historical Google Earth Images of the SanJose Manufacturing Site" style="width:100%;">
+        <p class="small">Click on the image to enlarge</p>
+
+        <!-- The Modal -->
+        <div id="myModal5" class="modal5">
+            <span class="close5">&times;</span>
+            <img class="modal-content5" id="img05">
+            <div id="caption5"></div>
+        </div>
+        <script>
+          //get modal
+          var modal5 = document.getElementById("myModal5");
+          //get image and insert inside modal
+          var img5 = document.getElementById("myImg5");
+          var modalImg5 = document.getElementById("img05");
+          var captionText5 = document.getElementById("caption5");
+          img5.onclick = function(){
+            modal5.style.display = "block";
+            modalImg5.src = this.src;
+            captionText5.innerHTML = this.alt;
+          }  
+          //get the <span> element to close modal
+          var span5 = document.getElementsByClassName("close5")[0];
+          //when user clicks on x close modal
+          span5.onclick = function() {
+            modal5.style.display = "none";
+          }
+         </script> 
+
+         <p>Use the blue slide to compare the site from 1993 to 2018</p>
+         <div class="img-comp-container5">
+            <div class="img-comp-img5">
+                <img src="sitesImages/tem_2018.JPG" width="300" height="200">
+            </div> 
+            <div class="img-comp-img5 img-comp-overlay5">
+                <img src="sitesImages/tem_2004.JPG" width="300" height="200">
+            </div>
+        </div>  
+        <script>
+            initComparisons5();
+        </script>
+
     </section>
     <section id='sa'>
-        <h3>SunPOwer Cape Town, South Africa</h3>
+        <h3>SunPower Cape Town, South Africa</h3>
         <p>Holmes and Watson head to The Daily Telegraph and place an ad to draw out the criminal. It reads: "To-night. Same hour. Same place. Two taps. Most vitally important. Your own safety at stake. Pierrot." The trap works and Holmes catches the criminal: Colonel Valentine Walter, the brother of Woolwich Arsenal's chief. He confesses to working for Hugo Oberstein to obtain the submarine plans in order to pay off his debts.</p>
+        <p><strong>The image below is a compilation of avaliable historical Google Earth images for the specificed manufactuirng site.</strong></p>
+        
+        <img id="myImg6" src="sitesImages/CapeTownImages.JPG" alt="Historical Google Earth Images of the SanJose Manufacturing Site" style="width:100%;">
+        <p class="small">Click on the image to enlarge</p>
+
+        <!-- The Modal -->
+        <div id="myModal6" class="modal6">
+            <span class="close6">&times;</span>
+            <img class="modal-content6" id="img06">
+            <div id="caption6"></div>
+        </div>
+        <script>
+          //get modal
+          var modal6 = document.getElementById("myModal6");
+          //get image and insert inside modal
+          var img6 = document.getElementById("myImg6");
+          var modalImg6 = document.getElementById("img06");
+          var captionText6 = document.getElementById("caption6");
+          img6.onclick = function(){
+            modal6.style.display = "block";
+            modalImg6.src = this.src;
+            captionText6.innerHTML = this.alt;
+          }  
+          //get the <span> element to close modal
+          var span6 = document.getElementsByClassName("close6")[0];
+          //when user clicks on x close modal
+          span6.onclick = function() {
+            modal6.style.display = "none";
+          }
+         </script> 
+
+         <p>Use the blue slide to compare the site from 1993 to 2018</p>
+         <div class="img-comp-container6">
+            <div class="img-comp-img6">
+                <img src="sitesImages/cape_2019.JPG" width="300" height="200">
+            </div> 
+            <div class="img-comp-img6 img-comp-overlay6">
+                <img src="sitesImages/cape_2001.JPG" width="300" height="200">
+            </div>
+        </div>  
+        <script>
+            initComparisons6();
+        </script>
+
     </section>
     <section id='malaysia'>
         <h3>SunPower Malaysia</h3>
         <p>Holmes and Watson head to The Daily Telegraph and place an ad to draw out the criminal. It reads: "To-night. Same hour. Same place. Two taps. Most vitally important. Your own safety at stake. Pierrot." The trap works and Holmes catches the criminal: Colonel Valentine Walter, the brother of Woolwich Arsenal's chief. He confesses to working for Hugo Oberstein to obtain the submarine plans in order to pay off his debts.</p>
+        <p><strong>The image below is a compilation of avaliable historical Google Earth images for the specificed manufactuirng site.</strong></p>
+        
+        <img id="myImg7" src="sitesImages/malaysiaImages.JPG" alt="Historical Google Earth Images of the SanJose Manufacturing Site" style="width:100%;">
+        <p class="small">Click on the image to enlarge</p>
+
+        <!-- The Modal -->
+        <div id="myModal7" class="modal7">
+            <span class="close7">&times;</span>
+            <img class="modal-content7" id="img07">
+            <div id="caption7"></div>
+        </div>
+        <script>
+          //get modal
+          var modal7 = document.getElementById("myModal7");
+          //get image and insert inside modal
+          var img7 = document.getElementById("myImg7");
+          var modalImg7 = document.getElementById("img07");
+          var captionText7 = document.getElementById("caption7");
+          img7.onclick = function(){
+            modal7.style.display = "block";
+            modalImg7.src = this.src;
+            captionText7.innerHTML = this.alt;
+          }  
+          //get the <span> element to close modal
+          var span7 = document.getElementsByClassName("close7")[0];
+          //when user clicks on x close modal
+          span7.onclick = function() {
+            modal7.style.display = "none";
+          }
+         </script> 
+
+         <p>Use the blue slide to compare the site from 1993 to 2018</p>
+         <div class="img-comp-container7">
+            <div class="img-comp-img7">
+                <img src="sitesImages/mal_2019.JPG" width="300" height="200">
+            </div> 
+            <div class="img-comp-img7 img-comp-overlay7">
+                <img src="sitesImages/mal_2005.JPG" width="300" height="200">
+            </div>
+        </div>  
+        <script>
+            initComparisons7();
+        </script>
+
     </section>
     <section id='modco'>
         <h3>SunPower Modco Philipines</h3>
         <p>Holmes and Watson head to The Daily Telegraph and place an ad to draw out the criminal. It reads: "To-night. Same hour. Same place. Two taps. Most vitally important. Your own safety at stake. Pierrot." The trap works and Holmes catches the criminal: Colonel Valentine Walter, the brother of Woolwich Arsenal's chief. He confesses to working for Hugo Oberstein to obtain the submarine plans in order to pay off his debts.</p>
+        <p><strong>The image below is a compilation of avaliable historical Google Earth images for the specificed manufactuirng site.</strong></p>
+        
+        <img id="myImg8" src="sitesImages/modcoImages.JPG" alt="Historical Google Earth Images of the SanJose Manufacturing Site" style="width:100%;">
+        <p class="small">Click on the image to enlarge</p>
+
+        <!-- The Modal -->
+        <div id="myModal8" class="modal8">
+            <span class="close8">&times;</span>
+            <img class="modal-content8" id="img08">
+            <div id="caption8"></div>
+        </div>
+        <script>
+          //get modal
+          var modal8 = document.getElementById("myModal8");
+          //get image and insert inside modal
+          var img8 = document.getElementById("myImg8");
+          var modalImg8 = document.getElementById("img08");
+          var captionText8 = document.getElementById("caption8");
+          img8.onclick = function(){
+            modal8.style.display = "block";
+            modalImg8.src = this.src;
+            captionText8.innerHTML = this.alt;
+          }  
+          //get the <span> element to close modal
+          var span8 = document.getElementsByClassName("close8")[0];
+          //when user clicks on x close modal
+          span8.onclick = function() {
+            modal8.style.display = "none";
+          }
+         </script> 
+
+         <p>Use the blue slide to compare the site from 2004 to 2018</p>
+         <div class="img-comp-container8">
+            <div class="img-comp-img8">
+                <img src="sitesImages/mod_2018.JPG" width="300" height="200">
+            </div> 
+            <div class="img-comp-img8 img-comp-overlay8">
+                <img src="sitesImages/mod_2004.JPG" width="300" height="200">
+            </div>
+        </div>  
+        <script>
+            initComparisons8();
+        </script>
+
     </section>
     <section id='fab4'>
         <h3>SunPower Fab4 Philipines</h3>
         <p>Holmes and Watson head to The Daily Telegraph and place an ad to draw out the criminal. It reads: "To-night. Same hour. Same place. Two taps. Most vitally important. Your own safety at stake. Pierrot." The trap works and Holmes catches the criminal: Colonel Valentine Walter, the brother of Woolwich Arsenal's chief. He confesses to working for Hugo Oberstein to obtain the submarine plans in order to pay off his debts.</p>
+        <p><strong>The image below is a compilation of avaliable historical Google Earth images for the specificed manufactuirng site.</strong></p>
+        
+        <img id="myImg9" src="sitesImages/fab4Images.JPG" alt="Historical Google Earth Images of the SanJose Manufacturing Site" style="width:100%;">
+        <p class="small">Click on the image to enlarge</p>
+
+        <!-- The Modal -->
+        <div id="myModal9" class="modal9">
+            <span class="close9">&times;</span>
+            <img class="modal-content9" id="img09">
+            <div id="caption9"></div>
+        </div>
+        <script>
+          //get modal
+          var modal9 = document.getElementById("myModal9");
+          //get image and insert inside modal
+          var img9 = document.getElementById("myImg9");
+          var modalImg9 = document.getElementById("img09");
+          var captionText9 = document.getElementById("caption9");
+          img9.onclick = function(){
+            modal9.style.display = "block";
+            modalImg9.src = this.src;
+            captionText9.innerHTML = this.alt;
+          }  
+          //get the <span> element to close modal
+          var span9 = document.getElementsByClassName("close9")[0];
+          //when user clicks on x close modal
+          span9.onclick = function() {
+            modal9.style.display = "none";
+          }
+         </script> 
+
+         <p>Use the blue slide to compare the site from 2004 to 2018</p>
+         <div class="img-comp-container9">
+            <div class="img-comp-img9">
+                <img src="sitesImages/fab4_2018.JPG" width="300" height="200">
+            </div> 
+            <div class="img-comp-img9 img-comp-overla9">
+                <img src="sitesImages/fab4_2004.JPG" width="300" height="200">
+            </div>
+        </div>  
+        <script>
+            initComparisons9();
+        </script>
+
     </section>
     <section id='fab2'>
         <h3>SunPower Fab2 Philipines</h3>
         <p>Walter writes to Oberstein and convinces him to meet in the smoking room of the Charing Cross Hotel where he promises additional plans for the submarine in exchange for money. The plan works and Holmes and Watson catch both criminals.</p>
-        <small id="citation">
-            Adapted from <a href='http://www.gutenberg.org/files/2346/2346-h/2346-h.htm'>Project Gutenberg</a>
-        </small>
+        <p><strong>The image below is a compilation of avaliable historical Google Earth images for the specificed manufactuirng site.</strong></p>
+        
+        <img id="myImgFab2" src="sitesImages/fab2Images.JPG" alt="Historical Google Earth Images of the SanJose Manufacturing Site" style="width:100%;">
+        <p class="small">Click on the image to enlarge</p>
+
+        <!-- The Modal -->
+        <div id="myModalFab2" class="modalFab2">
+            <span class="closeFab2">&times;</span>
+            <img class="modal-contentFab2" id="img0Fab2">
+            <div id="captionFab2"></div>
+        </div>
+        <script>
+          //get modal
+          var modalFab2 = document.getElementById("myModalFab2");
+          //get image and insert inside modal
+          var imgFab2 = document.getElementById("myImgFab2");
+          var modalImgFab2 = document.getElementById("img0Fab2");
+          var captionTextFab2 = document.getElementById("captionFab2");
+          imgFab2.onclick = function(){
+            modalFab2.style.display = "block";
+            modalImgFab2.src = this.src;
+            captionTextFab2.innerHTML = this.alt;
+          }  
+          //get the <span> element to close modal
+          var spanFab2 = document.getElementsByClassName("closeFab2")[0];
+          //when user clicks on x close modal
+          spanFab2.onclick = function() {
+            modalFab2.style.display = "none";
+          }
+         </script> 
+
+         <p>Use the blue slide to compare the site from 2004 to 2018</p>
+         <div class="img-comp-containerFab2">
+            <div class="img-comp-imgFab2">
+                <img src="sitesImages/fab2_2019.JPG" width="300" height="200">
+            </div> 
+            <div class="img-comp-imgFab2 img-comp-overlaFab2">
+                <img src="sitesImages/fab2_2006.JPG" width="300" height="200">
+            </div>
+        </div>  
+        <script>
+            initComparisonsFab2();
+        </script>
+
     </section>
     <section id='end'>
         <h3>end credit something</h3>
