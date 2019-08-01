@@ -1058,7 +1058,7 @@ img {
 
 .img-comp-slider9 {
   position: absolute;
-  z-index:15;
+  z-index:9;
   cursor: ew-resize;
   /*set the appearance of the slider:*/
   width: 40px;
