@@ -10,91 +10,109 @@ s_city_id,s_start,s_lat,s_lon,s_country,s_Volume,e_city_id,e_end,e_lat,e_lon,e_c
 238,NorSun AS,61.236838,7.706991,Norway,291099,9,Modco,14.27815,121.065836,Philipines,1
 238,NorSun AS,61.236838,7.706991,Norway,302064,10,Mexicali,32.622782,-115.532608,Mexico,1
 238,NorSun AS,61.236838,7.706991,Norway,302064,11,Malaysia,2.34049,102.21123,Malaysia,1
-623,Wacker Chemier,51.298992,13.39515,Germany,302064,12,France,45.816077,4.726069,France,1
-623,Wacker Chemier,51.298992,13.39515,Germany,302064,13,Fab 4,14.27618,121.135141,Philipines,1
-623,Wacker Chemier,51.298992,13.39515,Germany,302064,14,Fab 2,14.137501,121.135141,Philipines,1
-623,Wacker Chemier,51.298992,13.39515,Germany,302064,15,Brighton,-37.905482,144.999517,Australia,1
-623,Wacker Chemier,51.298992,13.39515,Germany,302064,16,Richmond,37.910501,-122.358354,United States of America,1
-623,Wacker Chemier,51.298992,13.39515,Germany,400017,17,San Jose,37.404787,-121.946716,United States of America,1
-623,Wacker Chemier,51.298992,13.39515,Germany,400017,18,Cape Town,-33.968293,18.576651,South Africa,1
-623,Wacker Chemier,51.298992,13.39515,Germany,400017,19,TEMASOL,33.998192,-6.846631,Morocco,1
-623,Wacker Chemier,51.298992,13.39515,Germany,400017,20,Modco,14.27815,121.065836,Philipines,1
-623,Wacker Chemier,51.298992,13.39515,Germany,400017,21,Mexicali,32.622782,-115.532608,Mexico,1
-623,Wacker Chemier,51.298992,13.39515,Germany,400017,22,Malaysia,2.34049,102.21123,Malaysia,1
-657,Hemlock,43.436264,-84.160654,United States of America,645321,23,France,45.816077,4.726069,France,1
-657,Hemlock,43.436264,-84.160654,United States of America,645321,24,Fab 4,14.27618,121.135141,Philipines,1
-657,Hemlock,43.436264,-84.160654,United States of America,645321,25,Fab 2,14.137501,121.135141,Philipines,1
-657,Hemlock,43.436264,-84.160654,United States of America,645321,26,Brighton,-37.905482,144.999517,Australia,1
-657,Hemlock,43.436264,-84.160654,United States of America,645321,27,Richmond,37.910501,-122.358354,United States of America,1
-657,Hemlock,43.436264,-84.160654,United States of America,645321,28,San Jose,37.404787,-121.946716,United States of America,1
-657,Hemlock,43.436264,-84.160654,United States of America,645321,29,Cape Town,-33.968293,18.576651,South Africa,1
-657,Hemlock,43.436264,-84.160654,United States of America,645321,30,TEMASOL,33.998192,-6.846631,Morocco,1
-657,Hemlock,43.436264,-84.160654,United States of America,645321,31,Modco,14.27815,121.065836,Philipines,1
-657,Hemlock,43.436264,-84.160654,United States of America,645321,32,Mexicali,32.622782,-115.532608,Mexico,1
-657,Hemlock,43.436264,-84.160654,United States of America,645321,33,Malaysia,2.34049,102.21123,Malaysia,1
-657,Wacker Polysilicon,35.283907,-84.796076,United States of America,645321,34,France,45.816077,4.726069,France,1
-657,Wacker Polysilicon,35.283907,-84.796076,United States of America,645321,35,Fab 4,14.27618,121.135141,Philipines,1
-657,Wacker Polysilicon,35.283907,-84.796076,United States of America,645321,36,Fab 2,14.137501,121.135141,Philipines,1
-657,Wacker Polysilicon,35.283907,-84.796076,United States of America,645321,37,Brighton,-37.905482,144.999517,Australia,1
-657,Wacker Polysilicon,35.283907,-84.796076,United States of America,645321,38,Richmond,37.910501,-122.358354,United States of America,1
-657,Wacker Polysilicon,35.283907,-84.796076,United States of America,645321,39,San Jose,37.404787,-121.946716,United States of America,1
-657,Wacker Polysilicon,35.283907,-84.796076,United States of America,645321,40,Cape Town,-33.968293,18.576651,South Africa,1
-657,Wacker Polysilicon,35.283907,-84.796076,United States of America,645321,41,TEMASOL,33.998192,-6.846631,Morocco,1
-657,Wacker Polysilicon,35.283907,-84.796076,United States of America,645321,42,Modco,14.27815,121.065836,Philipines,1
-262,Wacker Polysilicon,35.283907,-84.796076,United States of America,666365,43,Mexicali,32.622782,-115.532608,Mexico,1
-262,REC Silicon ASA,59.90261,10.631623,Norway,666365,44,Malaysia,2.34049,102.21123,Malaysia,1
-262,REC Silicon ASA,59.90261,10.631623,Norway,666365,45,France,45.816077,4.726069,France,1
-262,REC Silicon ASA,59.90261,10.631623,Norway,666365,46,Fab 4,14.27618,121.135141,Philipines,1
-262,REC Silicon ASA,59.90261,10.631623,Norway,666365,47,Fab 2,14.137501,121.135141,Philipines,1
-262,REC Silicon ASA,59.90261,10.631623,Norway,666365,48,Brighton,-37.905482,144.999517,Australia,1
-262,REC Silicon ASA,59.90261,10.631623,Norway,666365,49,Richmond,37.910501,-122.358354,United States of America,1
-262,REC Silicon ASA,59.90261,10.631623,Norway,666365,50,San Jose,37.404787,-121.946716,United States of America,1
-262,REC Silicon ASA,59.90261,10.631623,Norway,666365,51,Cape Town,-33.968293,18.576651,South Africa,1
-262,REC Silicon ASA,59.90261,10.631623,Norway,666365,52,TEMASOL,33.998192,-6.846631,Morocco,1
-262,REC Silicon ASA,59.90261,10.631623,Norway,666365,53,Modco,14.27815,121.065836,Philipines,1
-262,REC Silicon ASA,59.90261,10.631623,Norway,666365,54,Mexicali,32.622782,-115.532608,Mexico,1
-262,REC Silicon,47.134918,-119.198713,United States of America,666365,55,Malaysia,2.34049,102.21123,Malaysia,1
-262,REC Silicon,47.134918,-119.198713,United States of America,666365,56,France,45.816077,4.726069,France,1
-183,REC Silicon,47.134918,-119.198713,United States of America,765122,57,Fab 4,14.27618,121.135141,Philipines,1
-183,REC Silicon,47.134918,-119.198713,United States of America,765122,58,Fab 2,14.137501,121.135141,Philipines,1
-183,REC Silicon,47.134918,-119.198713,United States of America,765122,59,Brighton,-37.905482,144.999517,Australia,1
-183,REC Silicon,47.134918,-119.198713,United States of America,765122,60,Richmond,37.910501,-122.358354,United States of America,1
-183,REC Silicon,47.134918,-119.198713,United States of America,765122,61,San Jose,37.404787,-121.946716,United States of America,1
-183,REC Silicon,47.134918,-119.198713,United States of America,765122,62,Cape Town,-33.968293,18.576651,South Africa,1
-183,REC Silicon,47.134918,-119.198713,United States of America,765122,63,TEMASOL,33.998192,-6.846631,Morocco,1
-183,REC Silicon,47.134918,-119.198713,United States of America,765122,64,Modco,14.27815,121.065836,Philipines,1
-183,REC Silicon,47.134918,-119.198713,United States of America,765122,65,Mexicali,32.622782,-115.532608,Mexico,1
-183,REC Silicon,45.970868,-112.688913,United States of America,765122,66,Malaysia,2.34049,102.21123,Malaysia,1
-183,REC Silicon,45.970868,-112.688913,United States of America,765122,67,France,45.816077,4.726069,France,1
-183,REC Silicon,45.970868,-112.688913,United States of America,765122,68,Fab 4,14.27618,121.135141,Philipines,1
-183,REC Silicon,45.970868,-112.688913,United States of America,765122,69,Fab 2,14.137501,121.135141,Philipines,1
-183,REC Silicon,45.970868,-112.688913,United States of America,765122,70,Brighton,-37.905482,144.999517,Australia,1
-183,REC Silicon,45.970868,-112.688913,United States of America,765122,71,Richmond,37.910501,-122.358354,United States of America,1
-183,REC Silicon,45.970868,-112.688913,United States of America,765122,72,San Jose,37.404787,-121.946716,United States of America,1
-183,REC Silicon,45.970868,-112.688913,United States of America,765122,73,Cape Town,-33.968293,18.576651,South Africa,1
-183,REC Silicon,45.970868,-112.688913,United States of America,765122,74,TEMASOL,33.998192,-6.846631,Morocco,1
-183,REC Silicon,45.970868,-112.688913,United States of America,765122,75,Modco,14.27815,121.065836,Philipines,1
-183,REC Silicon,45.970868,-112.688913,United States of America,765122,76,Mexicali,32.622782,-115.532608,Mexico,1
-183,OCI Plant,35.979712,126.662835,South Korea,765122,77,Malaysia,2.34049,102.21123,Malaysia,1
-183,OCI Plant,35.979712,126.662835,South Korea,765122,78,France,45.816077,4.726069,France,1
-183,OCI Plant,35.979712,126.662835,South Korea,765122,79,Fab 4,14.27618,121.135141,Philipines,1
-183,OCI Plant,35.979712,126.662835,South Korea,765122,80,Fab 2,14.137501,121.135141,Philipines,1
-183,OCI Plant,35.979712,126.662835,South Korea,765122,81,Brighton,-37.905482,144.999517,Australia,1
-183,OCI Plant,35.979712,126.662835,South Korea,765122,82,Richmond,37.910501,-122.358354,United States of America,1
-183,OCI Plant,35.979712,126.662835,South Korea,765122,83,San Jose,37.404787,-121.946716,United States of America,1
-183,OCI Plant,35.979712,126.662835,South Korea,765122,84,Cape Town,-33.968293,18.576651,South Africa,1
-183,OCI Plant,35.979712,126.662835,South Korea,765122,85,TEMASOL,33.998192,-6.846631,Morocco,1
-183,OCI Plant,35.979712,126.662835,South Korea,765122,86,Modco,14.27815,121.065836,Philipines,1
-183,OCI Plant,35.979712,126.662835,South Korea,765122,87,Mexicali,32.622782,-115.532608,Mexico,1
-200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,88,Malaysia,2.34049,102.21123,Malaysia,1
-200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,89,France,45.816077,4.726069,France,1
-200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,90,Fab 4,14.27618,121.135141,Philipines,1
-200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,91,Fab 2,14.137501,121.135141,Philipines,1
-200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,92,Brighton,-37.905482,144.999517,Australia,1
-200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,93,Richmond,37.910501,-122.358354,United States of America,1
-200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,94,San Jose,37.404787,-121.946716,United States of America,1
-200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,95,Cape Town,-33.968293,18.576651,South Africa,1
-200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,96,TEMASOL,33.998192,-6.846631,Morocco,1
-200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,97,Modco,14.27815,121.065836,Philipines,1
-,OCI Malaysia,3.544446,113.305171,Malaysia,765122,98,Mexicali,32.622782,-115.532608,Mexico,1
-,OCI Malaysia,3.544446,113.305171,Malaysia,765122,99,Malaysia,2.34049,102.21123,Malaysia,1
+238,NorSun AS,61.236838,7.706991,Norway,302064,12,Toulouse,43.601634,1.358577,France,1
+238,NorSun AS,61.236838,7.706991,Norway,302064,13,De Vernejoul,49.168314,6.660245,France,1
+623,Wacker Chemier,51.298992,13.39515,Germany,302064,14,France,45.816077,4.726069,France,1
+623,Wacker Chemier,51.298992,13.39515,Germany,302064,15,Fab 4,14.27618,121.135141,Philipines,1
+623,Wacker Chemier,51.298992,13.39515,Germany,302064,16,Fab 2,14.137501,121.135141,Philipines,1
+623,Wacker Chemier,51.298992,13.39515,Germany,302064,17,Brighton,-37.905482,144.999517,Australia,1
+623,Wacker Chemier,51.298992,13.39515,Germany,302064,18,Richmond,37.910501,-122.358354,United States of America,1
+623,Wacker Chemier,51.298992,13.39515,Germany,400017,19,San Jose,37.404787,-121.946716,United States of America,1
+623,Wacker Chemier,51.298992,13.39515,Germany,400017,20,Cape Town,-33.968293,18.576651,South Africa,1
+623,Wacker Chemier,51.298992,13.39515,Germany,400017,21,TEMASOL,33.998192,-6.846631,Morocco,1
+623,Wacker Chemier,51.298992,13.39515,Germany,400017,22,Modco,14.27815,121.065836,Philipines,1
+623,Wacker Chemier,51.298992,13.39515,Germany,400017,23,Mexicali,32.622782,-115.532608,Mexico,1
+623,Wacker Chemier,51.298992,13.39515,Germany,400017,24,Malaysia,2.34049,102.21123,Malaysia,1
+623,Wacker Chemier,51.298992,13.39515,Germany,400017,25,Toulouse,43.601634,1.358577,France,1
+623,Wacker Chemier,51.298992,13.39515,Germany,400017,26,De Vernejoul,49.168314,6.660245,France,1
+657,Hemlock,43.436264,-84.160654,United States of America,645321,27,France,45.816077,4.726069,France,1
+657,Hemlock,43.436264,-84.160654,United States of America,645321,28,Fab 4,14.27618,121.135141,Philipines,1
+657,Hemlock,43.436264,-84.160654,United States of America,645321,29,Fab 2,14.137501,121.135141,Philipines,1
+657,Hemlock,43.436264,-84.160654,United States of America,645321,30,Brighton,-37.905482,144.999517,Australia,1
+657,Hemlock,43.436264,-84.160654,United States of America,645321,31,Richmond,37.910501,-122.358354,United States of America,1
+657,Hemlock,43.436264,-84.160654,United States of America,645321,32,San Jose,37.404787,-121.946716,United States of America,1
+657,Hemlock,43.436264,-84.160654,United States of America,645321,33,Cape Town,-33.968293,18.576651,South Africa,1
+657,Hemlock,43.436264,-84.160654,United States of America,645321,34,TEMASOL,33.998192,-6.846631,Morocco,1
+657,Hemlock,43.436264,-84.160654,United States of America,645321,35,Modco,14.27815,121.065836,Philipines,1
+657,Hemlock,43.436264,-84.160654,United States of America,645321,36,Mexicali,32.622782,-115.532608,Mexico,1
+657,Hemlock,43.436264,-84.160654,United States of America,645321,37,Malaysia,2.34049,102.21123,Malaysia,1
+657,Hemlock,43.436264,-84.160654,United States of America,645321,38,Toulouse,43.601634,1.358577,France,1
+657,Hemlock,43.436264,-84.160654,United States of America,645321,39,De Vernejoul,49.168314,6.660245,France,1
+657,Wacker Polysilicon,35.283907,-84.796076,United States of America,645321,40,France,45.816077,4.726069,France,1
+657,Wacker Polysilicon,35.283907,-84.796076,United States of America,645321,41,Fab 4,14.27618,121.135141,Philipines,1
+657,Wacker Polysilicon,35.283907,-84.796076,United States of America,645321,42,Fab 2,14.137501,121.135141,Philipines,1
+657,Wacker Polysilicon,35.283907,-84.796076,United States of America,645321,43,Brighton,-37.905482,144.999517,Australia,1
+657,Wacker Polysilicon,35.283907,-84.796076,United States of America,645321,44,Richmond,37.910501,-122.358354,United States of America,1
+657,Wacker Polysilicon,35.283907,-84.796076,United States of America,645321,45,San Jose,37.404787,-121.946716,United States of America,1
+657,Wacker Polysilicon,35.283907,-84.796076,United States of America,645321,46,Cape Town,-33.968293,18.576651,South Africa,1
+657,Wacker Polysilicon,35.283907,-84.796076,United States of America,645321,47,TEMASOL,33.998192,-6.846631,Morocco,1
+657,Wacker Polysilicon,35.283907,-84.796076,United States of America,645321,48,Modco,14.27815,121.065836,Philipines,1
+262,Wacker Polysilicon,35.283907,-84.796076,United States of America,666365,49,Mexicali,32.622782,-115.532608,Mexico,1
+262,Wacker Polysilicon,35.283907,-84.796076,United States of America,666365,50,Toulouse,43.601634,1.358577,France,1
+262,Wacker Polysilicon,35.283907,-84.796076,United States of America,666365,51,De Vernejoul,49.168314,6.660245,France,1
+262,REC Silicon ASA,59.90261,10.631623,Norway,666365,52,Malaysia,2.34049,102.21123,Malaysia,1
+262,REC Silicon ASA,59.90261,10.631623,Norway,666365,53,France,45.816077,4.726069,France,1
+262,REC Silicon ASA,59.90261,10.631623,Norway,666365,54,Fab 4,14.27618,121.135141,Philipines,1
+262,REC Silicon ASA,59.90261,10.631623,Norway,666365,55,Fab 2,14.137501,121.135141,Philipines,1
+262,REC Silicon ASA,59.90261,10.631623,Norway,666365,56,Brighton,-37.905482,144.999517,Australia,1
+262,REC Silicon ASA,59.90261,10.631623,Norway,666365,57,Richmond,37.910501,-122.358354,United States of America,1
+262,REC Silicon ASA,59.90261,10.631623,Norway,666365,58,San Jose,37.404787,-121.946716,United States of America,1
+262,REC Silicon ASA,59.90261,10.631623,Norway,666365,59,Cape Town,-33.968293,18.576651,South Africa,1
+262,REC Silicon ASA,59.90261,10.631623,Norway,666365,60,TEMASOL,33.998192,-6.846631,Morocco,1
+262,REC Silicon ASA,59.90261,10.631623,Norway,666365,61,Modco,14.27815,121.065836,Philipines,1
+262,REC Silicon ASA,59.90261,10.631623,Norway,666365,62,Mexicali,32.622782,-115.532608,Mexico,1
+262,REC Silicon ASA,59.90261,10.631623,Norway,666365,63,Toulouse,43.601634,1.358577,France,1
+262,REC Silicon ASA,59.90261,10.631623,Norway,666365,64,De Vernejoul,49.168314,6.660245,France,1
+262,REC Silicon,47.134918,-119.198713,United States of America,666365,65,Malaysia,2.34049,102.21123,Malaysia,1
+262,REC Silicon,47.134918,-119.198713,United States of America,666365,66,France,45.816077,4.726069,France,1
+183,REC Silicon,47.134918,-119.198713,United States of America,765122,67,Fab 4,14.27618,121.135141,Philipines,1
+183,REC Silicon,47.134918,-119.198713,United States of America,765122,68,Fab 2,14.137501,121.135141,Philipines,1
+183,REC Silicon,47.134918,-119.198713,United States of America,765122,69,Brighton,-37.905482,144.999517,Australia,1
+183,REC Silicon,47.134918,-119.198713,United States of America,765122,70,Richmond,37.910501,-122.358354,United States of America,1
+183,REC Silicon,47.134918,-119.198713,United States of America,765122,71,San Jose,37.404787,-121.946716,United States of America,1
+183,REC Silicon,47.134918,-119.198713,United States of America,765122,72,Cape Town,-33.968293,18.576651,South Africa,1
+183,REC Silicon,47.134918,-119.198713,United States of America,765122,73,TEMASOL,33.998192,-6.846631,Morocco,1
+183,REC Silicon,47.134918,-119.198713,United States of America,765122,74,Modco,14.27815,121.065836,Philipines,1
+183,REC Silicon,47.134918,-119.198713,United States of America,765122,75,Mexicali,32.622782,-115.532608,Mexico,1
+183,REC Silicon,47.134918,-119.198713,United States of America,765122,76,Toulouse,43.601634,1.358577,France,1
+183,REC Silicon,47.134918,-119.198713,United States of America,765122,77,De Vernejoul,49.168314,6.660245,France,1
+183,REC Silicon,45.970868,-112.688913,United States of America,765122,78,Malaysia,2.34049,102.21123,Malaysia,1
+183,REC Silicon,45.970868,-112.688913,United States of America,765122,79,France,45.816077,4.726069,France,1
+183,REC Silicon,45.970868,-112.688913,United States of America,765122,80,Fab 4,14.27618,121.135141,Philipines,1
+183,REC Silicon,45.970868,-112.688913,United States of America,765122,81,Fab 2,14.137501,121.135141,Philipines,1
+183,REC Silicon,45.970868,-112.688913,United States of America,765122,82,Brighton,-37.905482,144.999517,Australia,1
+183,REC Silicon,45.970868,-112.688913,United States of America,765122,83,Richmond,37.910501,-122.358354,United States of America,1
+183,REC Silicon,45.970868,-112.688913,United States of America,765122,84,San Jose,37.404787,-121.946716,United States of America,1
+183,REC Silicon,45.970868,-112.688913,United States of America,765122,85,Cape Town,-33.968293,18.576651,South Africa,1
+183,REC Silicon,45.970868,-112.688913,United States of America,765122,86,TEMASOL,33.998192,-6.846631,Morocco,1
+183,REC Silicon,45.970868,-112.688913,United States of America,765122,87,Modco,14.27815,121.065836,Philipines,1
+183,REC Silicon,45.970868,-112.688913,United States of America,765122,88,Mexicali,32.622782,-115.532608,Mexico,1
+183,REC Silicon,45.970868,-112.688913,United States of America,765122,89,Toulouse,43.601634,1.358577,France,1
+183,REC Silicon,45.970868,-112.688913,United States of America,765122,90,De Vernejoul,49.168314,6.660245,France,1
+183,OCI Plant,35.979712,126.662835,South Korea,765122,91,Malaysia,2.34049,102.21123,Malaysia,1
+183,OCI Plant,35.979712,126.662835,South Korea,765122,92,France,45.816077,4.726069,France,1
+183,OCI Plant,35.979712,126.662835,South Korea,765122,93,Fab 4,14.27618,121.135141,Philipines,1
+183,OCI Plant,35.979712,126.662835,South Korea,765122,94,Fab 2,14.137501,121.135141,Philipines,1
+183,OCI Plant,35.979712,126.662835,South Korea,765122,95,Brighton,-37.905482,144.999517,Australia,1
+183,OCI Plant,35.979712,126.662835,South Korea,765122,96,Richmond,37.910501,-122.358354,United States of America,1
+183,OCI Plant,35.979712,126.662835,South Korea,765122,97,San Jose,37.404787,-121.946716,United States of America,1
+183,OCI Plant,35.979712,126.662835,South Korea,765122,98,Cape Town,-33.968293,18.576651,South Africa,1
+183,OCI Plant,35.979712,126.662835,South Korea,765122,99,TEMASOL,33.998192,-6.846631,Morocco,1
+183,OCI Plant,35.979712,126.662835,South Korea,765122,99,Modco,14.27815,121.065836,Philipines,1
+183,OCI Plant,35.979712,126.662835,South Korea,765122,99,Mexicali,32.622782,-115.532608,Mexico,1
+183,OCI Plant,35.979712,126.662835,South Korea,765122,100,Toulouse,43.601634,1.358577,France,1
+183,OCI Plant,35.979712,126.662835,South Korea,765122,101,De Vernejoul,49.168314,6.660245,France,1
+200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,102,Malaysia,2.34049,102.21123,Malaysia,1
+200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,103,France,45.816077,4.726069,France,1
+200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,104,Fab 4,14.27618,121.135141,Philipines,1
+200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,105,Fab 2,14.137501,121.135141,Philipines,1
+200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,106,Brighton,-37.905482,144.999517,Australia,1
+200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,107,Richmond,37.910501,-122.358354,United States of America,1
+200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,108,San Jose,37.404787,-121.946716,United States of America,1
+200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,109,Cape Town,-33.968293,18.576651,South Africa,1
+200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,110,TEMASOL,33.998192,-6.846631,Morocco,1
+200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,111,Modco,14.27815,121.065836,Philipines,1
+200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,112,Mexicali,32.622782,-115.532608,Mexico,1
+200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,113,Malaysia,2.34049,102.21123,Malaysia,1
+200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,114,Toulouse,43.601634,1.358577,France,1
+200,OCI Malaysia,3.544446,113.305171,Malaysia,765122,115,De Vernejoul,49.168314,6.660245,France,1
