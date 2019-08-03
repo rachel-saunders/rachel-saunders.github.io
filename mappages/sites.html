@@ -232,6 +232,54 @@ a:hover {
         </script>
 
     </section>
+    <section id='toulouse'>
+        <h3>SunPower Toulouse</h3>
+        <p>to be determined</p>
+        <p><strong>The image below is a compilation of avaliable historical Google Earth images for the specificed manufactuirng site.</strong></p>
+        
+        <img id="myImgT" src="sitesImages/toulImages.JPG" alt="Historical Google Earth Images of the SanJose Manufacturing Site" style="width:100%;">
+        <p class="small">Click on the image to enlarge</p>
+
+        <!-- The Modal -->
+        <div id="myModalT" class="modalT">
+            <span class="closeT">&times;</span>
+            <img class="modal-contentT" id="img0T">
+            <div id="captionT"></div>
+        </div>
+        <script>
+          //get modal
+          var modalT = document.getElementById("myModalT");
+          //get image and insert inside modal
+          var imgT = document.getElementById("myImgT");
+          var modalImgT = document.getElementById("img0T");
+          var captionTextT = document.getElementById("captionT");
+          imgT.onclick = function(){
+            modalT.style.display = "block";
+            modalImgT.src = this.src;
+            captionTextT.innerHTML = this.alt;
+          }  
+          //get the <span> element to close modal
+          var spanT = document.getElementsByClassName("closeT")[0];
+          //when user clicks on x close modal
+          spanT.onclick = function() {
+            modalT.style.display = "none";
+          }
+         </script> 
+
+         <p>Use the blue slide to compare the site from 2005 to 2018</p>
+         <div class="img-comp-containerT">
+            <div class="img-comp-imgT">
+                <img src="sitesImages/toul_2018.JPG" width="300" height="200">
+            </div> 
+            <div class="img-comp-imgT img-comp-overlayT">
+                <img src="sitesImages/toul_2002.JPG" width="300" height="200">
+            </div>
+        </div>  
+        <script>
+            initComparisonsT();
+        </script>
+
+    </section>
     <section id='france'>
         <h3>SunPower France</h3>
         <p>to be determined</p>
@@ -277,6 +325,54 @@ a:hover {
         </div>  
         <script>
             initComparisons4();
+        </script>
+
+    </section>
+    <section id='deVernejoul'>
+        <h3>SunPower De Vernejoul</h3>
+        <p>to be determined</p>
+        <p><strong>The image below is a compilation of avaliable historical Google Earth images for the specificed manufactuirng site.</strong></p>
+        
+        <img id="myImgD" src="sitesImages/deImages.JPG" alt="Historical Google Earth Images of the SanJose Manufacturing Site" style="width:100%;">
+        <p class="small">Click on the image to enlarge</p>
+
+        <!-- The Modal -->
+        <div id="myModalD" class="modalD">
+            <span class="closeD">&times;</span>
+            <img class="modal-contentD" id="img0D">
+            <div id="captionD"></div>
+        </div>
+        <script>
+          //get modal
+          var modalD = document.getElementById("myModalD");
+          //get image and insert inside modal
+          var imgD = document.getElementById("myImgD");
+          var modalImgD = document.getElementById("img0D");
+          var captionTextD = document.getElementById("captionD");
+          imgD.onclick = function(){
+            modalD.style.display = "block";
+            modalImgD.src = this.src;
+            captionTextD.innerHTML = this.alt;
+          }  
+          //get the <span> element to close modal
+          var spanD = document.getElementsByClassName("closeD")[0];
+          //when user clicks on x close modal
+          spanD.onclick = function() {
+            modalD.style.display = "none";
+          }
+         </script> 
+
+         <p>Use the blue slide to compare the site from 2005 to 2018</p>
+         <div class="img-comp-containerD">
+            <div class="img-comp-imgD">
+                <img src="sitesImages/de_2018.JPG" width="300" height="200">
+            </div> 
+            <div class="img-comp-imgD img-comp-overlayD">
+                <img src="sitesImages/de_2011.JPG" width="300" height="200">
+            </div>
+        </div>  
+        <script>
+            initComparisonsD();
         </script>
 
     </section>
@@ -614,11 +710,25 @@ var chapters = {
         center: [-115.532608, 32.622782],
         zoom: 15
     },
+    'toulouse': {
+        bearing: 45,
+        center: [1.358577, 43.601634],
+        zoom: 16.5,
+        pitch: 20,
+        speed: 0.6
+    },
     'france': {
         bearing: 45,
         center: [4.726069, 45.816077],
         zoom: 16.5,
         pitch: 20,
+        speed: 0.6
+    },
+    'deVernejoul': {
+        bearing: 0,
+        center: [6.660335, 49.168374],
+        zoom: 16.5,
+        pitch: 0,
         speed: 0.6
     },
     'morocco': {
