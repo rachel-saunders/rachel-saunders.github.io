@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset='utf-8' />
-    <title>Human & Labor Rights</title>
+    <title>Rights</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
@@ -15,46 +15,304 @@
 
 <style>
     #menu {
-        position: absolute;
         background: #fff;
-        padding: 10px;
+        position: absolute;
+        z-index: 1;
+        top: 10px;
+        right: 10px;
+        border-radius: 3px;
+        width: 200px;
+        border: 1px solid rgba(0,0,0,0.4);
         font-family: 'Open Sans', sans-serif;
+    }
+
+    #menu a {
+        font-size: 13px;
+        color: #404040;
+        display: block;
+        margin: 0;
+        padding: 0;
+        padding: 10px;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(0,0,0,0.25);
+        text-align: center;
+    }
+
+    #menu a:last-child {
+        border: none;
+    }
+
+    #menu a:hover {
+        background-color: #f8f8f8;
+        color: #404040;
+    }
+
+    #menu a.active {
+        background-color: #3887be;
+        color: #ffffff;
+    }
+
+    #menu a.active:hover {
+        background: #3074a4;
     }
 </style>
 
-<div id='map'></div>
-<div id='menu'>
-    <input id='cjyxh160l00io1cmveaf8vyg3' type='radio' name='rtoggle' value='human' checked='checked'>
-    <label for='human'>Human Rights</label>
-    <input id='cjyw5fjw01npf1cnxxj9ti7w1' type='radio' name='rtoggle' value='violation'>
-    <label for='violation'>Human Rights Violations</label>
-    <input id='cjyakny0c0cyq1cp4867kgsm0' type='radio' name='rtoggle' value='economic'>
-    <label for='economic'>Economic Freedom</label>
-    <input id='cjyxcw6230q2d1cpkkk21rley' type='radio' name='rtoggle' value='income'>
-    <label for='income'>Wage per Hour</label>
-    <input id='cjyxdpjje2t9i1cnkw7gahwym' type='radio' name='rtoggle' value='female'>
-    <label for='female'>Ratio of Female to Male Labor</label>
-</div>
+<nav id="menu"></nav>
+<div id="map"></div>
+
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoicmNzYXVuZGVyczk2IiwiYSI6ImNqbzNleWJmcDBtanAzd3BncXI5amsxN2gifQ.xXowywf-2CY5HNdRkuHM7w';
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/rcsaunders96/cjyxh160l00io1cmveaf8vyg3',
+    style: 'mapbox://styles/rcsaunders96/cjyyw0ewq0oe41cp67mpnavxz',
     zoom: 1.26,
     center: [12.497, 14.877]
 });
 
-var layerList = document.getElementById('menu');
-var inputs = layerList.getElementsByTagName('input');
+map.on('load', function () {
+    map.addSource('Human Rights', {
+        type: 'vector',
+        url: 'mapbox://rcsaunders96.awk3ule3'
+    });
+    map.addLayer({
+        'id': 'Human Rights',
+        'type': 'fill',
+        'source': 'composite',
+        'layout': {
+            'visibility': 'none'
+        },
+        'paint': {
+            'fill-color': [
+                    'step',
+                    ['get', 'HR'],
+                    'hsl(35, 62%, 46%)',
+                    -2,
+                    '#dfc27d',
+                    -1,
+                    '#f6e8c3',
+                    0,
+                    '#f6e8c3',
+                    0.1,
+                    '#80cdc1',
+                    1,
+                    '#35978f',
+                    1.868427,
+                    '#35978f'
+                ]
+        },
+        'source-layer': 'HRmanu_countries-9q8yrf'
+    });
 
-function switchLayer(layer) {
-    var layerId = layer.target.id;
-    map.setStyle('mapbox://styles/rcsaunders96/' + layerId);
+//human violations
+    map.addSource('Human Rights Violations', {
+        type: 'vector',
+        url: 'mapbox://rcsaunders96.b9ifs8en'
+    });
+   map.addLayer({
+        'id': 'Human Rights Violations',
+        'type': 'fill',
+        'source': 'composite',
+        'layout': {
+            'visibility': 'none'
+        },
+        'paint': {
+            'fill-color': [
+                    'step',
+                    ['get', 'HV'],
+                    'hsl(37, 95%, 92%)',
+                    3,
+                    '#fdcc8a',
+                    4,
+                    '#fc8d59',
+                    5,
+                    '#e34a33',
+                    6,
+                    '#b30000'
+                ]
+        },
+        'source-layer': 'HVmanu_countries-674hvn'
+    });
+
+//economic freedom
+    map.addSource('Economic Freedom', {
+            type: 'vector',
+            url: 'mapbox://rcsaunders96.cvuiif28'
+        });
+       map.addLayer({
+            'id': 'Economic Freedom',
+            'type': 'fill',
+            'source': 'composite',
+            'layout': {
+                'visibility': 'none'
+            },
+            'paint': {
+                'fill-color': [
+                    "interpolate",
+                    ["linear"],
+                    ["get", "EF"],
+                    0,
+                    "#ebf6f9",
+                    57,
+                    "#97d8c9",
+                    82,
+                    "#99d8c9",
+                    94,
+                    "#2ca25f"
+                    ]
+            },
+            'source-layer': 'EFmanu_countries-0mhbre'
+        });
+
+//Wage per Hour 
+    map.addSource('Wage Per Hour', {
+            type: 'vector',
+            url: 'mapbox://rcsaunders96.0svyfgdp'
+        });
+       map.addLayer({
+            'id': 'Wage Per Hour',
+            'type': 'fill',
+            'source': 'composite',
+            'layout': {
+                'visibility': 'none'
+            },
+            'paint': {
+                'fill-color': [
+                    "step",
+                    ["get", "income"],
+                    "#ffffe5",
+                    1,
+                    "#f7fcb9",
+                    2,
+                    "#d9f0a3",
+                    4,
+                    "#addd8e",
+                    6,
+                    "#78c679",
+                    8,
+                    "#41ab5d",
+                    10,
+                    "#238443",
+                    12,
+                    "#005a32"
+                 ]
+            },
+            'source-layer': 'Incomemanu_countries-anjeiy'
+        });
+
+//female to male ratio 
+    map.addSource('Ratio of Female to Male Labor', {
+            type: 'vector',
+            url: 'mapbox://rcsaunders96.dnehvfz5'
+        });
+       map.addLayer({
+            'id': 'Ratio of Female to Male Labor',
+            'type': 'fill',
+            'source': 'composite',
+            'layout': {
+                'visibility': 'none'
+            },
+            'paint': {
+                'fill-color': [
+                   "interpolate",
+                    ["linear"],
+                    ["get", "ratio"],
+                    33.67007,
+                    "#f1eef6",
+                    40,
+                    "#d4b9da",
+                    50,
+                    "#c892c7",
+                    60,
+                    "#e067b1",
+                    77.15553,
+                    "#ce1257",
+                    80,
+                    "#8f003e",
+                    88.48894,
+                    "#91003f"
+                 ]
+            },
+            'source-layer': 'Femalemanu_countries-9iw1qe'
+        });
+
+//manufacturing points 
+   map.addSource('Manufacturing Sites', {
+        type: 'vector',
+        url: 'mapbox://rcsaunders96.6bn9w9qf'
+    });
+   map.addLayer({
+        'id': 'Manufacturing Sites',
+        'type': 'circle',
+        'source': 'composite',
+        'layout': {
+            'visibility': 'none'
+        },
+        'paint': {
+            "circle-blur": 0,
+                "circle-color": "hsl(51, 8%, 48%)",
+                "circle-stroke-color": "hsl(51, 0%, 5%)",
+                "circle-stroke-width": 1.5,
+                "circle-radius": 2.5
+        },
+        'source-layer': 'manu_points-7y48os'
+    });
+
+//Last to load so on top of chloropleths
+
+    map.addSource('Countries', {
+        type: 'vector',
+        url: 'mapbox://rcsaunders96.05zy99qz'
+    });
+
+    map.addLayer({
+        'id': 'Countries',
+        'type': 'symbol',
+        'source': 'composite',
+        'layout': {
+            'text-field': ['to-string', ['get', 'name']],
+            'text-size': 11,
+            'visibility': 'none'
+        },
+        'paint': {
+                "text-color": "#f8f7f7",
+                "text-halo-color": "#474343",
+                "text-halo-width": 1.5
+            },
+        'source-layer': 'manu_Point_countries-c6ghmj'
+    });
+
+});
+
+var toggleableLayerIds = [ 'Countries', 'Manufacturing Sites', 'Human Rights', 'Human Rights Violations', 'Economic Freedom', 'Wage Per Hour', 'Ratio of Female to Male Labor' ];
+
+for (var i = 0; i < toggleableLayerIds.length; i++) {
+    var id = toggleableLayerIds[i];
+
+    var link = document.createElement('a');
+    link.href = '#';
+    link.className = 'active';
+    link.textContent = id;
+
+    link.onclick = function (e) {
+        var clickedLayer = this.textContent;
+        e.preventDefault();
+        e.stopPropagation();
+
+        var visibility = map.getLayoutProperty(clickedLayer, 'visibility');
+
+        if (visibility === 'visible') {
+            map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+            this.className = '';
+        } else {
+            this.className = 'active';
+            map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
+        }
+    };
+
+    var layers = document.getElementById('menu');
+    layers.appendChild(link);
 }
 
-for (var i = 0; i < inputs.length; i++) {
-    inputs[i].onclick = switchLayer;
-}
 </script>
 
 </body>
