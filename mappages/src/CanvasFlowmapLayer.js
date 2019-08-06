@@ -29,15 +29,15 @@
       // developers will most likely need to provide this
       // options object with values unique to their data
       originAndDestinationFieldIds: {
-        originUniqueIdField: 'origin_id',
+        originUniqueIdField: 's_start',
         originGeometry: {
-          x: 'origin_lon',
-          y: 'origin_lat'
+          x: 's_lon',
+          y: 's_lat'
         },
-        destinationUniqueIdField: 'destination_id',
+        destinationUniqueIdField: 'e_end',
         destinationGeometry: {
-          x: 'destination_lon',
-          y: 'destination_lat'
+          x: 'e_lon',
+          y: 'e_lat'
         }
       },
 
