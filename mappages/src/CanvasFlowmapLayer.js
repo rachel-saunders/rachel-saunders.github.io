@@ -45,10 +45,10 @@
         type: 'simple',
         symbol: {
           // use canvas styling options (compare to CircleMarker styling below)
-          strokeStyle: 'rgb(153, 255, 255)',
+          strokeStyle: 'rgb(0, 102, 204)',
           lineWidth: 0.75,
           lineCap: 'round',
-          shadowColor: 'rgb(204, 255, 255)',
+          shadowColor: 'rgb(0, 255, 255)',
           shadowBlur: 1.5
         }
       },
@@ -57,11 +57,11 @@
         type: 'simple',
         symbol: {
           // use canvas styling options (compare to CircleMarker styling below)
-          strokeStyle: 'rgb(255, 51, 153)',
+          strokeStyle: 'rgb(0, 102, 204)',
           lineWidth: 1.25,
           lineDashOffsetSize: 4, // custom property used with animation sprite sizes
           lineCap: 'round',
-          shadowColor: 'rgb(153, 0, 76)',
+          shadowColor: 'rgb(0, 255, 255)',
           shadowBlur: 2
         }
       },
@@ -97,8 +97,8 @@
             renderer: canvasRenderer, // recommended to use L.canvas()
             radius: 5,
             weight: 1,
-            color: 'rgb(153, 255, 255)',
-            fillColor: 'rgb(153, 255, 255)',
+            color: 'rgb(0, 102, 204)',
+            fillColor: 'rgb(0, 255, 255)',
             fillOpacity: 0.6
           };
         } else {
@@ -106,8 +106,8 @@
             renderer: canvasRenderer,
             radius: 2.5,
             weight: 0.25,
-            color: 'rgb(255, 255, 153)',
-            fillColor: 'rgb(255, 255, 153)',
+            color: 'rgb(255, 255, 102)',
+            fillColor: 'rgb(255, 255, 0)',
             fillOpacity: 0.7
           };
         }
