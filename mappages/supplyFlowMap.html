@@ -15,14 +15,11 @@
 
   <style>
 
-    /*#main {
-      max-width: 500px;
-      background-color: #FFF;
-      overflow: auto;
-      margin: 0 auto;
-      padding: 20px;
-
-    }*/
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
     body {
       margin: 0;
@@ -150,11 +147,15 @@
 
       <p>
         Connect the movement of goods through the SunPower Corp. supply chain from <strong>mining</strong> raw materials such as quartz and copper ore, to third-party <strong>production</strong> facilities that make ignots and wafers that are then sent to  <strong>manufacturing</strong> locations where the solar cells and panels are assembled and finally to an <strong>installation</strong> site which is the <strong>Solar Star</strong> site in California containing 1.7 million solar panels.
-      </p>
+        <br>
+    
+      <img src="images/origintodest.JPG" alt="Color Ramp for Human Rights Map" style="width:60%;height: 20px;">
+    </p>
+  
       <button id="mineToProdLayerButton" class="u-full-width button-primary" value="0">Mines to Production</button>
       <button id="prodToManuLayerButton" class="u-full-width" value="1">Production to Manufacturing</button>
       <button id="manuToSolarLayerButton" class="u-full-width" value="2">Manufacturing to Installation</button>
-      <button id="allLayerButton" class="u-full-width" value="3">All of the Data</button>
+     <!-- <button id="allLayerButton" class="u-full-width" value="3">All of the Data</button> -->
 
       <p>
         Change animation properties:
@@ -238,7 +239,7 @@
     createCanvasFlowmapLayer('csv-data/Flowmap_Mines_one_to_many.csv', 0, true);
     createCanvasFlowmapLayer('csv-data/Flowmap_Prods_one_to_many.csv', 1);
     createCanvasFlowmapLayer('csv-data/Flowmap_Manu2_one_to_one.csv', 2);
-    createCanvasFlowmapLayer('csv-data/Flowmap_All.csv', 3)
+    /*createCanvasFlowmapLayer('csv-data/Flowmap_All.csv', 3)*/
 
     function createCanvasFlowmapLayer(csvFilePath, customLayerId, doOneTimeDemoSetup) {
       Papa.parse(csvFilePath, {
@@ -326,7 +327,7 @@
     var mineToProdLayerButton = document.getElementById('mineToProdLayerButton');
     var prodToManuLayerButton = document.getElementById('prodToManuLayerButton');
     var manuToSolarLayerButton = document.getElementById('manuToSolarLayerButton');
-    var allLayerButton = document.getElementById('allLayerButton');
+   /* var allLayerButton = document.getElementById('allLayerButton');*/
     var pathAnimationButton = document.getElementById('pathAnimationButton');
    // var pathAnimationStyleSelect = document.getElementById('pathAnimationStyleSelect');
     var pathAnimationDurationInput = document.getElementById('pathAnimationDurationInput');
@@ -337,13 +338,13 @@
     mineToProdLayerButton.addEventListener('click', toggleActiveLayer);
     prodToManuLayerButton.addEventListener('click', toggleActiveLayer);
     manuToSolarLayerButton.addEventListener('click', toggleActiveLayer);
-    allLayerButton.addEventListener('click', toggleActiveLayer);
+   /* allLayerButton.addEventListener('click', toggleActiveLayer);*/
 
     function toggleActiveLayer(evt) {
       mineToProdLayerButton.classList.remove('button-primary');
       prodToManuLayerButton.classList.remove('button-primary');
       manuToSolarLayerButton.classList.remove('button-primary');
-      allLayerButton.classList.remove('button-primary');
+     /* allLayerButton.classList.remove('button-primary');*/
 
       layersArray.forEach(function(layer) {
         if (layer.options.customLayerId === Number(evt.target.value)) {
